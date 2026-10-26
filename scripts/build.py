@@ -595,6 +595,8 @@ def openFont(path):
             if pat.match(name):
                 del font[name]
 
+    import tashkil
+    tashkil.apply(font)
 
     return font
 

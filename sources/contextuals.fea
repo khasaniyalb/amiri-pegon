@@ -899,3 +899,21 @@ feature rlig {
     sub @Tashkil.below' lookup KasraAynFina @aAyn.fina;
     sub @Tashkil.below' lookup KasraHaaFina @aHaa.fina;
 } rlig;
+
+# Pegon: khah dot to the left of the lam stem in lam+khah ligatures
+lookup LamKhahDot {
+    lookupflag IgnoreMarks;
+    sub @aLam.init.LamHaaInit khah-ar.fina.AboveHaaIsol2' by khah-ar.fina.AboveHaaIsol2.LamKhah;
+    sub @aLam.init.LamHaaInit khah-ar.medi.FaaHaaInit' by khah-ar.medi.FaaHaaInit.LamKhah;
+} LamKhahDot;
+
+lookup KafKhahDot {
+    lookupflag IgnoreMarks;
+    sub [kaf-ar.init.AboveHaa kafDotbelow-ar.init.AboveHaa] khah-ar.fina.AboveHaaIsol2' by khah-ar.fina.AboveHaaIsol2.KafKhah;
+    sub [kaf-ar.init.AboveHaa kafDotbelow-ar.init.AboveHaa] khah-ar.medi.FaaHaaInit' by khah-ar.medi.FaaHaaInit.KafKhah;
+} KafKhahDot;
+
+feature rlig {
+    lookup LamKhahDot;
+    lookup KafKhahDot;
+} rlig;

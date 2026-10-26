@@ -64,6 +64,7 @@ feature init {
     sub sadTwodotsbelow-ar by sadTwodotsbelow-ar.init;
     sub sadThreedots-ar by sadThreedots-ar.init;
     sub tahThreedots-ar by tahThreedots-ar.init;
+    sub tahDotbelow-ar by tahDotbelow-ar.init;
     sub ainThreedots-ar by ainThreedots-ar.init;
     sub fehDotless-ar by fehDotless-ar.init;
     sub fehDotmovedbelow-ar by fehDotmovedbelow-ar.init;
@@ -79,6 +80,7 @@ feature init {
     sub kafDotabove-ar by kafDotabove-ar.init;
     sub ng-ar by ng-ar.init;
     sub kafThreedotsbelow-ar by kafThreedotsbelow-ar.init;
+    sub kafDotbelow-ar by kafDotbelow-ar.init;
     sub gaf-ar by gaf-ar.init;
     sub gafRing-ar by gafRing-ar.init;
     sub ngoeh-ar by ngoeh-ar.init;
@@ -205,6 +207,7 @@ feature medi {
     sub sadTwodotsbelow-ar by sadTwodotsbelow-ar.medi;
     sub sadThreedots-ar by sadThreedots-ar.medi;
     sub tahThreedots-ar by tahThreedots-ar.medi;
+    sub tahDotbelow-ar by tahDotbelow-ar.medi;
     sub ainThreedots-ar by ainThreedots-ar.medi;
     sub fehDotless-ar by fehDotless-ar.medi;
     sub fehDotmovedbelow-ar by fehDotmovedbelow-ar.medi;
@@ -220,6 +223,7 @@ feature medi {
     sub kafDotabove-ar by kafDotabove-ar.medi;
     sub ng-ar by ng-ar.medi;
     sub kafThreedotsbelow-ar by kafThreedotsbelow-ar.medi;
+    sub kafDotbelow-ar by kafDotbelow-ar.medi;
     sub gaf-ar by gaf-ar.medi;
     sub gafRing-ar by gafRing-ar.medi;
     sub ngoeh-ar by ngoeh-ar.medi;
@@ -379,6 +383,7 @@ feature fina {
     sub sadTwodotsbelow-ar by sadTwodotsbelow-ar.fina;
     sub sadThreedots-ar by sadThreedots-ar.fina;
     sub tahThreedots-ar by tahThreedots-ar.fina;
+    sub tahDotbelow-ar by tahDotbelow-ar.fina;
     sub ainThreedots-ar by ainThreedots-ar.fina;
     sub fehDotless-ar by fehDotless-ar.fina;
     sub fehDotmovedbelow-ar by fehDotmovedbelow-ar.fina;
@@ -394,6 +399,7 @@ feature fina {
     sub kafDotabove-ar by kafDotabove-ar.fina;
     sub ng-ar by ng-ar.fina;
     sub kafThreedotsbelow-ar by kafThreedotsbelow-ar.fina;
+    sub kafDotbelow-ar by kafDotbelow-ar.fina;
     sub gaf-ar by gaf-ar.fina;
     sub gafRing-ar by gafRing-ar.fina;
     sub ngoeh-ar by ngoeh-ar.fina;

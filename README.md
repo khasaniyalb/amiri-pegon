@@ -1,57 +1,75 @@
-[![Build](https://github.com/aliftype/amiri/actions/workflows/build.yml/badge.svg)](https://github.com/aliftype/amiri/actions/workflows/build.yml)
+# Amiri Pegon
 
-Amiri
-=====
+Modifikasi font [Amiri](https://github.com/aliftype/amiri) untuk penulisan Pegon.
+Lisensi tetap SIL Open Font License 1.1 (lihat `OFL.txt`).
 
-Amiri (أميري) is a classical Arabic typeface in Naskh style for typesetting books and
-other running text.
+## Perubahan
 
-Amiri is a revival of the beautiful typeface pioneered in early 20th century by
-[Bulaq Press][1] in Cairo, also known as Amiria Press, after which the font is
-named.
+### 1. Huruf Pegon baru
+| Karakter | Unicode | Nama | Basis |
+|---|---|---|---|
+| ࢴ | U+08B4 | Kaf dengan titik bawah | ك (U+0643) |
+| ࢋ | U+088B | Tah dengan titik bawah | ط (U+0637) |
 
-The uniqueness of this typeface comes from its superb balance between the
-beauty of Naskh calligraphy on one hand, the constraints and requirements of
-elegant typography on the other. Also, it is one of the few metal typefaces
-that were used in typesetting the Quran, making it a good source for a digital
-typeface to be used in typesetting Quranic verses.
+- Tersedia bentuk isol, init, medi, dan fina.
+- Seluruh ligatur dan contextual alternate milik kaf (27 varian) dan tah (5 varian) ikut tersedia.
+- Posisi titik bawah dihitung terhadap huruf tetangga agar tidak bertabrakan atau ambigu dengan titik huruf sebelahnya, terpisah untuk Regular dan Bold.
+- Ligatur kaf + jim/hah/kha: titik kaf berada di dalam kait kaf. Titik kha dipindah ke kiri kait kaf, juga untuk kaf biasa (ك) + kha.
+- Font Quran (`AmiriQuran*.ttf`) tidak memuat huruf ini.
 
-Amiri project aims at the revival of the aesthetics and traditions of Arabic
-typesetting, and adapting it to the era of digital typesetting, in a publicly
-available form.
+### 2. Lam + Kha
+Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri kha):
+`لخ`, `لخخ`, `لخخا`, `لخمم`. Fa + kha tidak berubah.
 
-Amiri is a free and open source project that everyone is encouraged to use and
-modify. Amiri is available under the terms of [Open Font License][2], see the
-included license file for more details.
+### 3. Tashkil
+- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 80%.
+- Madda (U+0653) diperkecil menjadi 60%.
+- Titik tumpu pengecilan adalah anchor tempel, sehingga posisi tempel pada huruf tetap.
+- Madda di dalam آ dan komponen U+FDFD tidak diubah.
 
-Latest version of the Amiri font can be obtained from its web site:
+## File yang berubah dari Amiri asli
 
-> https://aliftype.com/amiri
+| Berkas | Perubahan |
+|---|---|
+| `sources/Amiri.glyphspackage/glyphs/kafD_otbelow-ar*.glyph` | 27 glyph baru (kaf titik bawah) |
+| `sources/Amiri.glyphspackage/glyphs/tahD_otbelow-ar*.glyph` | 5 glyph baru (tah titik bawah) |
+| glyph `khah-ar.*.LamKhah` dan `khah-ar.*.KafKhah` (nama berkas memakai penulisan `L_amK_hah`) | 4 varian kha baru |
+| `khah-ar.medi.1LamHaaHaaInit`, `khah-ar.medi.LamHaaMemInit` | titik kha digeser |
+| `sources/Amiri.glyphspackage/order.plist` | daftar glyph baru |
+| `sources/classes.fea`, `sources/basic.fea` | glyph baru masuk kelas dan substitusi posisi |
+| `sources/contextuals.fea` | lookup `LamKhahDot` dan `KafKhahDot` di akhir berkas |
+| `scripts/tashkil.py` (baru), `scripts/build.py` | pengecilan tashkil saat build |
+| `scripts/rename.py` (baru) | ganti nama font setelah build |
 
-Development status
-------------------
+## Build
 
-Amiri was actively developed between 2008–2022, when version 1 was released and
-it was then considered mature enough that not further development is planned.
-No typeface is ever complete, but maintaining Amiri is increasingly time and
-effort-consuming due to a combination of decisions taken early on due to
-software limitations at the time its development started, as well as extensive
-character and glyph coverage. Amiri development might be restarted in the
-future under a different name with less backward-compatibility constraints, but
-nothing concrete is currently planed.
+Kebutuhan sama dengan Amiri asli (lihat `requirements.txt`).
 
-Building
---------
+```sh
+pip install -r requirements.txt
+make VERSION=1.001
+```
 
-To build the fonts you need a few Python packages:
+Hasil ada di `fonts/`. Pengecilan tashkil berjalan otomatis lewat `scripts/build.py`.
 
-    $ python3 -m venv amiri-venv
-    $ . amiri-venv/bin/activate
-    $ pip3 install -r requirements.txt
+## Mengganti nama font
 
-To build the font files run:
+Nama font Amiri asli dipakai oleh `NAME=Amiri` di `Makefile` dan `fontinfo.plist`. Mengubah keduanya
+akan memengaruhi seluruh jalur build, jadi cara paling aman adalah mengganti nama setelah build:
 
-    $ make ttf
+```sh
+python3 scripts/rename.py fonts/Amiri-Regular.ttf fonts/Amiri-Bold.ttf \
+    fonts/Amiri-Italic.ttf fonts/Amiri-BoldItalic.ttf
+```
 
-[1]: https://www.bibalex.org/bulaqpress/en/bulaq.htm "The Bulaq Press"
-[2]: https://openfontlicense.org "The Open Font License"
+Skrip ini menulis `AmiriPegon-Regular.ttf` dan seterusnya (family "Amiri Pegon"; nama PostScript
+`AmiriPegon-*`), dan tidak menyentuh berkas asli. Untuk nama lain: `--family "Nama Lain"`.
+
+## Catatan
+
+- Posisi titik bawah memakai hasil pengukuran otomatis terhadap kombinasi huruf Arab dan Pegon umum.
+  Kombinasi yang jarang dipakai bisa saja masih perlu penyesuaian manual.
+- Jika huruf tetangga sendiri sudah menabrak badan kaf (misalnya ra sebelum kaf), itu tidak bisa
+  diperbaiki lewat posisi titik.
+- Untuk mengubah posisi titik satu varian, edit transform komponen `dotbelow-ar` (atau `dotabove-ar`
+  pada glyph khah) di berkas `.glyph` terkait, pada kedua master (Regular dan Bold).

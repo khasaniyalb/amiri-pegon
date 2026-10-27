@@ -585,7 +585,7 @@ def _build_production_name(glyph, font):
 
     return glyph.name
 
-def openFont(path):
+def openFont(path, quran=False):
     font = Font.open(path, validate=False)
 
     if REMOVE_GLYPHS in font.lib:
@@ -597,12 +597,15 @@ def openFont(path):
 
     import tashkil
     tashkil.apply(font)
+    if not quran:
+        import tashkil_anchors
+        tashkil_anchors.apply(font, "Bold" if "Bold" in (font.info.styleName or "") else "Regular")
 
     return font
 
 
 def makeDesktop(options, generate=True):
-    font = openFont(options.input)
+    font = openFont(options.input, quran=options.quran)
 
     # remove anchors that are not needed in the production font
     cleanAnchors(font)

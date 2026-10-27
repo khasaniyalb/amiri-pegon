@@ -15,6 +15,7 @@ DIST=$(NAME)-$(VERSION)
 LICENSE=OFL.txt
 
 BUILD=${SCRIPTSDIR}/build.py
+TASHKIL=scripts/tashkil_anchors.py $(wildcard sources/tashkil-adjust.json)
 MAKEQURAN=${SCRIPTSDIR}/mkquran.py
 PY ?= python
 
@@ -36,7 +37,7 @@ $(BUILDDIR)/$(NAME).designspace: $(SRC)/$(NAME).glyphspackage
 $(BUILDDIR)/%.ufo: $(BUILDDIR)/$(NAME).designspace
 	@echo "   UFO	$@"
 
-${FONTSDIR}/$(NAME)QuranColored.ttf: $(BUILDDIR)/$(NAME)-Regular.ufo $(SRC)/$(LATIN)-Regular.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD)
+${FONTSDIR}/$(NAME)QuranColored.ttf: $(BUILDDIR)/$(NAME)-Regular.ufo $(SRC)/$(LATIN)-Regular.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD) $(TASHKIL)
 	@echo "   GEN	$@"
 	@$(PY) $(BUILD) --input $< --output $@ --features=$(SRC)/$(NAME).fea --version $(VERSION) --license $(LICENSE) --quran
 
@@ -44,19 +45,19 @@ ${FONTSDIR}/$(NAME)Quran.ttf: ${FONTSDIR}/$(NAME)QuranColored.ttf $(MAKEQURAN)
 	@echo "   GEN	$@"
 	@$(PY) $(MAKEQURAN) $< $@
 
-${FONTSDIR}/$(NAME)-Regular.ttf: $(BUILDDIR)/$(NAME)-Regular.ufo $(SRC)/$(LATIN)-Regular.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD)
+${FONTSDIR}/$(NAME)-Regular.ttf: $(BUILDDIR)/$(NAME)-Regular.ufo $(SRC)/$(LATIN)-Regular.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD) $(TASHKIL)
 	@echo "   GEN	$@"
 	@$(PY) $(BUILD) --input $< --output $@ --features=$(SRC)/$(NAME).fea --version $(VERSION) --license $(LICENSE)
 
-${FONTSDIR}/$(NAME)-Italic.ttf: $(BUILDDIR)/$(NAME)-Regular.ufo $(SRC)/$(LATIN)-Italic.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD)
+${FONTSDIR}/$(NAME)-Italic.ttf: $(BUILDDIR)/$(NAME)-Regular.ufo $(SRC)/$(LATIN)-Italic.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD) $(TASHKIL)
 	@echo "   GEN	$@"
 	@$(PY) $(BUILD) --input $< --output $@ --features=$(SRC)/$(NAME).fea --version $(VERSION) --license $(LICENSE) --slant=10
 
-${FONTSDIR}/$(NAME)-Bold.ttf: $(BUILDDIR)/$(NAME)-Bold.ufo $(SRC)/$(LATIN)-Bold.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD)
+${FONTSDIR}/$(NAME)-Bold.ttf: $(BUILDDIR)/$(NAME)-Bold.ufo $(SRC)/$(LATIN)-Bold.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD) $(TASHKIL)
 	@echo "   GEN	$@"
 	@$(PY) $(BUILD) --input $< --output $@ --features=$(SRC)/$(NAME).fea --version $(VERSION) --license $(LICENSE)
 
-${FONTSDIR}/$(NAME)-BoldItalic.ttf: $(BUILDDIR)/$(NAME)-Bold.ufo $(SRC)/$(LATIN)-BoldItalic.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD)
+${FONTSDIR}/$(NAME)-BoldItalic.ttf: $(BUILDDIR)/$(NAME)-Bold.ufo $(SRC)/$(LATIN)-BoldItalic.ufo $(SRC)/$(NAME).fea $(FEA) $(LICENSE) $(BUILD) $(TASHKIL)
 	@echo "   GEN	$@"
 	@$(PY) $(BUILD) --input $< --output $@ --features=$(SRC)/$(NAME).fea --version $(VERSION) --license $(LICENSE) --slant=10
 

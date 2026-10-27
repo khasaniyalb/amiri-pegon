@@ -39,6 +39,9 @@ Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri 
 | `sources/classes.fea`, `sources/basic.fea` | glyph baru masuk kelas dan substitusi posisi |
 | `sources/contextuals.fea` | lookup `LamKhahDot` dan `KafKhahDot` di akhir berkas |
 | `scripts/tashkil.py` (baru), `scripts/build.py` | pengecilan tashkil saat build |
+| `scripts/tashkil_anchors.py` (baru) | posisi tashkil mengikuti kontur huruf (anchor `TashkilAbove`/`TashkilBelow` dihitung ulang per glyph saat build) |
+| `scripts/tashkil_check.py` (baru) | deteksi tabrakan tashkil dan penghitung koreksi otomatis |
+| `sources/tashkil-adjust.json` (baru) | koreksi (dx/dy) per glyph hasil `tashkil_check.py`, boleh diedit manual |
 | `scripts/rename.py` (baru) | ganti nama font setelah build |
 
 ## Build
@@ -65,8 +68,39 @@ python3 scripts/rename.py fonts/Amiri-Regular.ttf fonts/Amiri-Bold.ttf \
 Skrip ini menulis `AmiriPegon-Regular.ttf` dan seterusnya (family "Amiri Pegon"; nama PostScript
 `AmiriPegon-*`), dan tidak menyentuh berkas asli. Untuk nama lain: `--family "Nama Lain"`.
 
+## Posisi tashkil mengikuti badan huruf
+
+Amiri asli meletakkan hampir semua tashkil pada satu ketinggian tetap (y=801 atas, y=-327 bawah).
+`scripts/tashkil_anchors.py` menghitung ulang anchor untuk setiap glyph (isol/init/medi/fina, ligatur,
+dan semua varian kontekstual/calt, karena semuanya glyph tunggal) dari kontur glyph itu sendiri,
+mengikuti pola Scheherazade New:
+
+- Huruf berbatang tinggi (ا ل ط ظ ك dan variannya): tanda diletakkan relatif pada *puncak batang* (celah `GAP_STEM`). Anchor x dipindah ke puncak batang/goresan (ل ط ظ ك) dan digeser sekitar 14 unit agar *pusat visual* tanda (bukan titik anchor-nya, yang berada di kiri pusat pada fatha/damma/tanwin) tepat di atas batang. Khusus keluarga ك (kaf, keheh, gaf), tanda digeser `KAF_LEFT` (145 unit) ke kiri dari ujung goresan atas dan tingginya dihitung dari kontur goresan di posisi itu, mirip Scheherazade yang menaruh tanda ك lebih ke kiri lagi.
+- Atas: dasar tanda = max(lantai 530, puncak huruf di bawah tanda + celah). Titik di atas huruf diberi
+  celah lebih besar daripada badan huruf. Huruf rendah (ba, sin, mim) mendapat tanda rendah,
+  huruf tinggi (alif, lam, tha) mendapat tanda tinggi.
+- Bawah: puncak tanda = min(batas bawah garis dasar, dasar huruf/titik bawah - celah).
+- Semua angka ada di `P` pada awal `tashkil_anchors.py` (satuan per 1000 em) dan mudah diubah.
+- Quran tidak ikut diubah.
+
+Tabrakan dengan huruf/tanda tetangga diukur dan dikoreksi per glyph:
+
+```sh
+python scripts/tashkil_check.py fonts/Amiri-Regular.ttf --master Regular --words 14000 --seed 11 --write
+make VERSION=1.001 fonts/Amiri-Regular.ttf     # ulangi 2-3 putaran dengan seed berbeda
+```
+
+Koreksi disimpan di `sources/tashkil-adjust.json` ({master: {glyph: {dxA, dyA, dxB, dyB}}}),
+dibatasi maksimum 160 unit vertikal dan 60 unit horizontal. Pada 9.000 kata acak (seed 2026) yang
+tidak dipakai untuk melatih koreksi, tanda yang berjarak < 22 unit dari huruf/tanda tetangga turun dari
+3,03% menjadi 0,42% (Regular) dan 3,89% menjadi 0,78% (Bold).
+
 ## Catatan
 
+- Koreksi tabrakan hanya mencakup glyph yang muncul pada kata acak uji (sekitar 3.000 dari 5.000 glyph
+  berjangkar); sisanya memakai posisi dasar dari kontur saja.
+- Tabrakan sisa umumnya antar tanda pada huruf sempit yang berdampingan (misalnya alif-lam), yang tidak
+  bisa diselesaikan hanya dengan anchor per glyph. Perlu aturan GPOS kontekstual bila ingin dihilangkan.
 - Posisi titik bawah memakai hasil pengukuran otomatis terhadap kombinasi huruf Arab dan Pegon umum.
   Kombinasi yang jarang dipakai bisa saja masih perlu penyesuaian manual.
 - Jika huruf tetangga sendiri sudah menabrak badan kaf (misalnya ra sebelum kaf), itu tidak bisa

@@ -1,0 +1,7512 @@
+{
+ "Bold": {
+  "ae-ar.fina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ain-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "ainThreedots-ar.init.Finjani": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "ainThreedots-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "ainThreedotsdownabove-ar.init.Finjani": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ainTwodotsverticalabove-ar.init.Finjani": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alef-ar": {
+   "dxA": -15,
+   "dxB": 25,
+   "dyA": 160,
+   "dyB": -20
+  },
+  "alef-ar.fina": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "alef-ar.fina.KafAlf": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "alef-ar.fina.KafMemAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefHamzaabove-ar": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefHamzaabove-ar.fina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefHamzaabove-ar.fina.KafAlf": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "alefHamzabelow-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "alefHamzabelow-ar.LowHamza": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "alefHamzabelow-ar.fina": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "alefHamzabelow-ar.fina.KafAlf": {
+   "dxA": -60,
+   "dxB": -50,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "alefMadda-ar": {
+   "dxA": -60,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefMadda-ar.fina": {
+   "dxA": -60,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefMadda-ar.fina.KafAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefMadda-ar.fina.KafMemAlf": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "alefMaksura-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "alefMaksura-ar.init.BaaSenInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "alefMaksura-ar.init.Wide": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "alefMaksura-ar.medi": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 80,
+   "dyB": 0
+  },
+  "alefMaksura-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 40
+  },
+  "alefThreeabove-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "alefThreeabove-ar.fina": {
+   "dxA": 50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefThreeabove-ar.fina.KafAlf": {
+   "dxA": -10,
+   "dyA": 0
+  },
+  "alefThreeabove-ar.fina.LamAlfFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefTwoabove-ar": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "alefTwoabove-ar.fina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefTwoabove-ar.fina.KafAlf": {
+   "dxA": -60,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefTwoabove-ar.fina.LamAlfFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefTwoabove-ar.fina.LamAlfIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "alefWasla-ar": {
+   "dxA": 60,
+   "dxB": 50,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "alefWasla-ar.fina": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefWasla-ar.fina.KafAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefWavyhamzaabove-ar": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefWavyhamzaabove-ar.fina": {
+   "dxA": 60,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefWavyhamzaabove-ar.fina.KafAlf": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "alefWavyhamzabelow-ar": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "alefWavyhamzabelow-ar.LowHamza": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "alefWavyhamzabelow-ar.fina": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "alefWavyhamzabelow-ar.fina.KafAlf": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": -40
+  },
+  "beeh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "beeh-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "beeh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beeh-ar.init.BaaBaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "beeh-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "beeh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beeh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "beeh-ar.medi.High": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "beeh-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "beh-ar.init": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.init.AboveHaa": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "beh-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.init.BaaRaaIsol": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "beh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.medi": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "beh-ar.medi.BaaBaaInit": {
+   "dxA": -35,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "beh-ar.medi.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "beh-ar.medi.BaaYaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "beh-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 20,
+   "dyB": -40
+  },
+  "beh-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behDotless-ar.init": {
+   "dxA": 25,
+   "dxB": 60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behDotless-ar.init.BaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "behDotless-ar.init.High": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.medi": {
+   "dxA": -35,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behDotless-ar.medi.High": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behDotless-ar.medi.KafBaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behDotless-ar.medi.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.init.BaaBaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.BaaMemFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.High": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dyA": 20
+  },
+  "behThreedotsupabove-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.medi": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behThreedotsupabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.medi.KafBaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi": {
+   "dxA": -35,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 60
+  },
+  "behThreedotsupbelow-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "behThreedotsupbelow-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi.BaaRaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behVabove-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behVabove-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVabove-ar.init.BaaDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behVabove-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behVabove-ar.medi": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "behVabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behVabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVabove-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behVbelow-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "behVbelow-ar.init.BaaBaaYaa": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behVbelow-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "behVinvertedbelow-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "behVinvertedbelow-ar.medi.YaaBari": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "beheh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beheh-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "beheh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beheh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "beheh-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beheh-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beheh-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dahal-ar.fina.BaaDal": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dahal-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dalDotbelow-ar.fina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "dalDotbelowTah-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "dalDotbelowTah-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dalDotbelowTah-ar.fina.LamDal": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "dalFourdots-ar": {
+   "dxA": 60,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "dalFourdots-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dalFourdots-ar.fina.KafDal": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "dalThreedotsdown-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "dalThreedotsdown-ar.fina.KafDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "dalTwodotsverticalbelowTah-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dalTwodotsverticalbelowTah-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dalVinvertedabove-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dalVinvertedabove-ar.fina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "dalVinvertedbelow-ar.fina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "ddal-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ddal-ar.fina.KafDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "dul-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dul-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dul-ar.fina.LamDal": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dyeh-ar.medi.BaaBaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dyeh-ar.medi.FaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "e-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "e-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "e-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 20
+  },
+  "e-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "feh-ar.init": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "feh-ar.init.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "feh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "feh-ar.medi.FaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehDotbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "fehDotbelow-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "fehDotless-ar.init.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 40
+  },
+  "fehDotless-ar.init.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "fehDotless-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "fehDotless-ar.medi.FaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehDotmovedbelow-ar.init": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "fehDotmovedbelow-ar.init.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "fehDotmovedbelow-ar.medi": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "fehDotmovedbelow-ar.medi.FaaYaaFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "fehThreedotsbelow-ar.fina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "fehThreedotsbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "fehThreedotsbelow-ar.init.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "fehThreedotsbelow-ar.init.FaaYaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "fehThreedotsbelow-ar.medi": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "fehThreedotsbelow-ar.medi.FaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehThreedotsupbelow-ar.init.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "fehThreedotsupbelow-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "fehThreedotsupbelow-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "fehTwodotsbelow-ar.init": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "fehTwodotsbelow-ar.init.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "fehTwodotsbelow-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "fehTwodotsbelow-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "gafThreedots-ar.init.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "gafThreedots-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "gafThreedots-ar.medi.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "gueh-ar.init": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "gueh-ar.init.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "gueh-ar.init.PreHeh": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "gueh-ar.medi.KafLam": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hah-ar.medi.2LamHaaHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hah-ar.medi.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "hah-ar.medi.BaaHaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "hah-ar.medi.FaaHaaInit": {
+   "dxA": 10,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "hah-ar.medi.SadHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahFourbelow-ar.medi.1LamHaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahFourbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "hahFourbelow-ar.medi.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.fina.AboveHaaIsol2": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.BaaBaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.LamHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.SadHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahTahTwodotshorizontalabove-ar.medi.2LamHaaHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hahTahTwodotshorizontalabove-ar.medi.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.AynHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.HaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.SadHaaInit": {
+   "dxA": 50,
+   "dyA": 100
+  },
+  "hahTahbelow-ar.fina.AboveHaaIsol2": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahTahbelow-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.fina.AboveHaaIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.1LamHaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.BaaHaaMemInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "hahThreedotsabove-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.Finjani": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.SadHaaInit": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "hahThreedotsupbelow-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahTwodotshorizontalabove-ar.medi.AynHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahTwodotshorizontalabove-ar.medi.BaaBaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahTwodotshorizontalabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTwodotsverticalabove-ar.medi.BaaHaaMemInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hahTwodotsverticalabove-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahTwodotsverticalabove-ar.medi.SadHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "heh-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "heh-ar.init.HehHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "heh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "heh-ar.medi.BaaHehMedi": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "heh-ar.medi.LamHehInit": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "hehVinvertedabove-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "hehVinvertedabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hehVinvertedabove-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hehgoal-ar.init.HehHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hehgoal-ar.medi.BaaHehMedi": {
+   "dxA": -60,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "highhamza-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "highhamzaAlef-ar": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "highhamzaYeh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "highhamzaYeh-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "jeem-ar.fina.AboveHaaIsol2": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "jeem-ar.medi.1LamHaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "jeem-ar.medi.2LamHaaHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "jeem-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "jeem-ar.medi.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 20
+  },
+  "jeem-ar.medi.SadHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "jeh-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "jeh-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "jeh-ar.fina.LamRaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "kaf-ar.init.KafRaaIsol": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "kafDotbelow-ar.init.KafBaaInit": {
+   "dxB": 0,
+   "dyB": -40
+  },
+  "kashida-ar.1": {
+   "dxA": -60,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "kashida-ar.2": {
+   "dxA": -50,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "kehehDotabove-ar.init.AboveHaa": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "kehehDotabove-ar.init.KafHeh": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "kehehDotabove-ar.init.KafRaaIsol": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "kehehDotabove-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehDotabove-ar.medi.KafRaaFina": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "kehehThreedotsabove-ar.init.AboveHaa": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.init.KafLam": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 80,
+   "dyB": 0
+  },
+  "kehehThreedotsabove-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.medi.KafLam": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.medi.KafMemAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "kehehTwodotshorizontalabove-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "khah-ar.fina.AboveHaaIsol2": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "khah-ar.medi.1LamHaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "khah-ar.medi.2LamHaaHaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "khah-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "khah-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "khah-ar.medi.FaaHaaInit.KafKhah": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "khah-ar.medi.FaaHaaInit.LamKhah": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "khah-ar.medi.HaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "khah-ar.medi.LamHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "khah-ar.medi.MemHaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "khah-ar.medi.SadHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "kirghizoe-ar.fina": {
+   "dxA": -25,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "kirghizyu-ar.fina": {
+   "dxB": 0,
+   "dyB": -60
+  },
+  "lam-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.fina": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "lam-ar.fina.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.fina.LamLamFina": {
+   "dxA": -50,
+   "dyA": 40
+  },
+  "lam-ar.init": {
+   "dxA": 25,
+   "dxB": 60,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "lam-ar.init.LamBaaMemInit": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.init.LamHaaHaaInit": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "lam-ar.init.LamHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lam-ar.init.LamHehInit": {
+   "dxA": -50,
+   "dyA": 40
+  },
+  "lam-ar.init.LamLamHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lam-ar.init.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lam-ar.init.LamMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.init.LamRaaIsol": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi.KafLam": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi.KafLamAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.medi.KafLamHehIsol": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.medi.KafLamYaa": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamHehIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "lam-ar.medi.LamLamMedi2": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi.LamMemFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi.LamWawFina": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.fina.KafMemLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamBar-ar.init": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.init.LamAlfIsol": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamHaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamLamHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "lamBar-ar.medi": {
+   "dxA": 0,
+   "dxB": 50,
+   "dyA": 100,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.KafLam": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.LamLamHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamBar-ar.medi.LamLamHehFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamBar-ar.medi.LamLamMedi2": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.LamWawFina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamDotabove-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamDotabove-ar.fina": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "lamDotabove-ar.fina.LamLamFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamDotabove-ar.init": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamDotabove-ar.init.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamDotabove-ar.init.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "lamDotabove-ar.medi": {
+   "dxA": 0,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamDotabove-ar.medi.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamDotabove-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamThreedotsabove-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.fina.LamLamFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.init.LamLamInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.medi.KafLam": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "lamThreedotsabove-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.fina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.fina.LamLamFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init": {
+   "dxA": 50,
+   "dxB": 60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamThreedotsbelow-ar.init.LamAlfIsol": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamHehInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamMemInit": {
+   "dxA": 0,
+   "dyA": 40
+  },
+  "lamThreedotsbelow-ar.init.LamRaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 120
+  },
+  "lamThreedotsbelow-ar.medi.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.medi.LamLamMedi": {
+   "dxA": 35,
+   "dyA": 20
+  },
+  "lamThreedotsbelow-ar.medi.LamLamMedi2": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamVabove-ar.fina.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamVabove-ar.init.LamLamInit": {
+   "dxA": 50,
+   "dyA": 40
+  },
+  "lamVabove-ar.init.LamRaaIsol": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "lamVabove-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamVabove-ar.medi.LamLamInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamVabove-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamVabove-ar.medi.LamLamMedi2": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamVabove-ar.medi.LamYaaFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "meem-ar.fina.BaaMemFina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "meem-ar.init.MemHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "meem-ar.init.MemHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.init.MemMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.medi.BaaBaaMemInit": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 20,
+   "dyB": -20
+  },
+  "meem-ar.medi.BaaMemInit": {
+   "dxA": 0,
+   "dxB": 10,
+   "dyA": 80,
+   "dyB": 0
+  },
+  "meem-ar.medi.KafMemMedi": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "meem-ar.medi.LamBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "meem-ar.medi.LamHaaMemInit": {
+   "dxA": -50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "meem-ar.medi.LamMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.medi.LamMemInitTatweel": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.medi.SenMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "meemDotbelow-ar.medi.LamMemMedi": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "ng-ar.init": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "ng-ar.init.KafLam": {
+   "dxA": 50,
+   "dyA": 40
+  },
+  "ng-ar.init.KafMemAlf": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "ng-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "ng-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ng-ar.medi.KafLam": {
+   "dxA": 60,
+   "dyA": 120
+  },
+  "ng-ar.medi.KafRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ngoeh-ar.init": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "ngoeh-ar.init.AboveHaa": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafLam": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafMemMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noon-ar.init": {
+   "dxA": 25,
+   "dxB": 10,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaBaaIsol": {
+   "dxA": 35,
+   "dxB": 60,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noon-ar.init.BaaBaaYaa": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaDal": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noon-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noon-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 80
+  },
+  "noon-ar.init.High": {
+   "dxA": 50,
+   "dyA": 40
+  },
+  "noon-ar.init.Wide": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noon-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 40
+  },
+  "noon-ar.medi": {
+   "dxA": -50,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaBaaHaaInit": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -50,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noon-ar.medi.BaaBaaYaa": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaHehMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noon-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noon-ar.medi.High": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noon-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noon-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noon-ar.medi.LamBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noon-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.fina.BaaNonIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.init": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonDotbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonDotbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonDotbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonDotbelow-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonRing-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonRing-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonRing-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonRing-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonRing-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonRing-ar.medi.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonRing-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "noonRing-ar.medi.High": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonRing-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonRing-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTahabove-ar.init": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": -60
+  },
+  "noonTahabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTahabove-ar.init.High": {
+   "dxA": 60,
+   "dyA": 20
+  },
+  "noonTahabove-ar.init.Wide": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "noonTahabove-ar.medi": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTahabove-ar.medi.BaaBaaInit": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTahabove-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTahabove-ar.medi.High": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.BaaBaaMemInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.init.BaaSenAltInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": -20
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaMemFina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "noonThreedotsabove-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -60,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.init": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.init.High": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.medi.High": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonVabove-ar.init": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonVabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonVabove-ar.init.BaaYaaIsol": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "noonVabove-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonVabove-ar.init.Wide": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonVabove-ar.medi": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "noonVabove-ar.medi.BaaRaaFina": {
+   "dxB": -60,
+   "dyB": 0
+  },
+  "noonVabove-ar.medi.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonVabove-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonghunna-ar.init": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonghunna-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonghunna-ar.init.BaaHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonghunna-ar.init.BaaRaaIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonghunna-ar.init.High": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonghunna-ar.medi": {
+   "dxA": 0,
+   "dxB": 50,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "noonghunna-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 20
+  },
+  "noonghunna-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonghunna-ar.medi.BaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonghunna-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "nyeh-ar.fina.AboveHaaIsol2": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "nyeh-ar.medi.BaaHaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "nyeh-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "nyeh-ar.medi.SadHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "oe-ar.fina": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "peh-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "peh-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "peh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "peh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "peh-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "peh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "peh-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "peh-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "peheh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "peheh-ar.medi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "qaf-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "qaf-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "qafDotabove-ar.init": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "qafDotabove-ar.init.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "qafDotabove-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "qafDotless-ar.init.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "qafDotless-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "qafDotless-ar.medi.FaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "qafThreedotsabove-ar.init": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "qafThreedotsabove-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "reh-ar.fina": {
+   "dxA": 25,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "reh-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "reh-ar.fina.BaaRaaIsol": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "reh-ar.fina.LamRaaIsol": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehDotbelow-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "rehDotbelow-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehDotbelowdotabove-ar.fina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehDotbelowdotabove-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehFourdots-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehFourdots-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehFourdots-ar.fina.BaaRaaIsol": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehHamzaabove-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehHamzaabove-ar.fina": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "rehHamzaabove-ar.fina.BaaRaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehHamzaabove-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehHamzaabove-ar.fina.LamRaaIsol": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "rehRing-ar.fina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehRing-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehRing-ar.fina.BaaRaaIsol": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "rehRing-ar.fina.KafRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehRing-ar.fina.LamRaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehStroke-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehStroke-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehStroke-ar.fina.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "rehTwodots-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehTwodots-ar.fina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "rehTwodots-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar": {
+   "dxA": 60,
+   "dyA": 40
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.BaaRaaIsol": {
+   "dxA": 60,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.KafRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.KafRaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehTwodotsverticalabove-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehTwodotsverticalabove-ar.fina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehTwodotsverticalabove-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehTwodotsverticalabove-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehVbelow-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehVinvertedabove-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehVinvertedabove-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehVinvertedabove-ar.fina.BaaRaaIsol": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehVinvertedabove-ar.fina.LamRaaIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehv-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehv-ar.fina": {
+   "dxA": 50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehv-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehv-ar.fina.LamRaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rnoon-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rnoon-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rnoon-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rnoon-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rnoon-ar.init.Wide": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "rnoon-ar.medi": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rnoon-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 20
+  },
+  "rnoon-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rnoon-ar.medi.High": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "rnoon-ar.medi.KafBaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "rreh-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "rreh-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rreh-ar.fina.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rreh-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rreh-ar.fina.LamRaaIsol": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "seenFourabove-ar.fina.BaaSen": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "seenFourabove-ar.medi.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "seenFourabove-ar.medi.BaaSenInit": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "tah-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tah-ar.init.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tah-ar.medi": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tahDotbelow-ar.init": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tahDotbelow-ar.medi": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tahThreedots-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tahThreedots-ar.medi": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tcheh-ar.fina.AboveHaaIsol2": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.1LamHaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.AynHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "tcheh-ar.medi.BaaHaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tchehDotabove-ar.medi.1LamHaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tchehDotabove-ar.medi.FaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tcheheh-ar.medi.FaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.init": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.init.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "teh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 60,
+   "dyA": 100,
+   "dyB": 0
+  },
+  "teh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teh-ar.init.BaaSenInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "teh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.init.Wide": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "teh-ar.medi": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "teh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "teh-ar.medi.BaaBaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "teh-ar.medi.BaaHehMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.medi.High": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 120,
+   "dyB": 0
+  },
+  "teh-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teh-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "teh-ar.medi.LamBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "teh-ar.medi.YaaBari": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehMarbuta-ar": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehMarbuta-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehMarbutagoal-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehMarbutagoal-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehRing-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 80,
+   "dyB": 0
+  },
+  "tehRing-ar.init.BaaSenInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.medi": {
+   "dxA": 0,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehRing-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": 60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehRing-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehRing-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "tehRing-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init.BaaDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehThreedotsupbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.High": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehThreedotsupbelow-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.init": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teheh-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "teheh-ar.init.BaaDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "teheh-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teheh-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.init.Wide": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teheh-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "thal-ar.fina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.init": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.init.AboveHaa": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "theh-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 100,
+   "dyB": 0
+  },
+  "theh-ar.init.BaaBaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "theh-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "theh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.init.Wide": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 100,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaBaaYaa": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaHehMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "theh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaYaaFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.High": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.KafBaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "theh-ar.medi.KafBaaMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "theh-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteh-ar.init": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tteh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tteh-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteh-ar.init.Wide": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tteh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tteh-ar.medi.BaaHehMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteh-ar.medi.High": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "tteh-ar.medi.KafBaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "tteh-ar.medi.YaaBari": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tteheh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tteheh-ar.init.BaaSenInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "tteheh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "tteheh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "tteheh-ar.medi.KafBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.KafBaaMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "u-ar.fina": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "u-ar.fina.LamWawFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "ve-ar.fina": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "veh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "veh-ar.init.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "veh-ar.medi": {
+   "dxA": 0,
+   "dyA": 80
+  },
+  "waw-ar.fina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawDotabove-ar.fina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "wawHamzaabove-ar": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "wawHamzaabove-ar.fina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "wawThreeAbove-ar.fina": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawThreeAbove-ar.fina.LamWawFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawTwoabove-ar": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "wawTwoabove-ar.fina": {
+   "dxB": -60,
+   "dyB": 0
+  },
+  "wawTwodots-ar.fina": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawring-ar.fina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.init": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yeh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yeh-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yeh-ar.init.BaaRaaIsol": {
+   "dxB": 50,
+   "dyB": -40
+  },
+  "yeh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.medi": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 80,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yeh-ar.medi.BaaBaaYaa": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaHehMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yeh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaYaaFina": {
+   "dxB": 0,
+   "dyB": -20
+  },
+  "yeh-ar.medi.High": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "yeh-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.init": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.AboveHaa": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "yehFarsi-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.init.BaaBaaYaa": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.init.BaaNonIsol": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaRaaIsol": {
+   "dxB": 60,
+   "dyB": -20
+  },
+  "yehFarsi-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi": {
+   "dxA": -50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": 25,
+   "dyA": 140,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaMemFina": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.medi.High": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.medi": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.fina.BaaBaaYaa": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init.BaaBaaHaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.init.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init.High": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.init.Wide": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi": {
+   "dxA": -10,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi.BaaRaaFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.init.BaaBaaHaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.init.BaaHaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi": {
+   "dxA": 0,
+   "dxB": 50,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaHehMedi": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.KafBaaMedi": {
+   "dxA": 0,
+   "dyA": 40
+  },
+  "yehFarsiThreedotsabove-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.init.BaaBaaHeh": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwoabove-ar.init.Wide": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.medi": {
+   "dxA": -35,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwoabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 50,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehFarsiTwoabove-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "yehFarsiTwoabove-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.medi.BaaNonFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.medi.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.init": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.High": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.Wide": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiVinverted-ar.init": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiVinverted-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiVinverted-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiVinverted-ar.medi": {
+   "dxA": -25,
+   "dyA": 40
+  },
+  "yehFarsiVinverted-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiVinverted-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiVinverted-ar.medi.High": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehFarsiVinverted-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.init": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": -40
+  },
+  "yehHamzaabove-ar.init.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 60,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaBaaYaa": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaMemInit": {
+   "dxA": 0,
+   "dxB": 50,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaRaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaYaaIsol": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.init.Wide": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaBaaHaaInit": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 60,
+   "dyB": -160
+  },
+  "yehHamzaabove-ar.medi.BaaBaaYaa": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.medi.BaaHehMedi": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaYaaFina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.High": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.KafBaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.medi.KafBaaMedi": {
+   "dxA": 35,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.YaaBari": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehKashmiri-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehKashmiri-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.medi.BaaRaaFina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehKashmiri-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehRohingya-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.fina.KafYaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaRaaIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": 60,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 140,
+   "dyB": -80
+  },
+  "yehThreedotsbelow-ar.medi.BaaBaaYaa": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaMemFina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaNonFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaYaaFina": {
+   "dxB": 0,
+   "dyB": -20
+  },
+  "yehThreedotsbelow-ar.medi.High": {
+   "dxA": -50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "yehThreedotsbelow-ar.medi.LamBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehVabove-ar.init.BaaDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehVabove-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi.BaaHehMedi": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehVabove-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi.BaaYaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehVabove-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehbarree-ar.fina.PostAscender": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehbarree-ar.fina.PostToothFina": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "yehbarreeThreeabove-ar.fina.PostAscender": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "yehbarreeThreeabove-ar.fina.PostAyn": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehbarreeThreeabove-ar.fina.PostToothFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehbarreeTwoabove-ar.fina.PostToothFina": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "yu-ar.fina": {
+   "dxA": 25,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "zah-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "zain-ar.fina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "zain-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "zain-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "zain-ar.fina.KafRaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  }
+ },
+ "Regular": {
+  "ae-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ainThreedots-ar.init.Finjani": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "ainThreedots-ar.medi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ainThreedotsdownabove-ar.init.Finjani": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "ainTwodotsverticalabove-ar.init.Finjani": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alef-ar": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "alef-ar.fina": {
+   "dxA": 50,
+   "dxB": -50,
+   "dyA": 160,
+   "dyB": -60
+  },
+  "alef-ar.fina.KafAlf": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "alef-ar.fina.KafMemAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alef-ar.fina.LamAlfFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefHamzaabove-ar.fina.KafAlf": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefHamzabelow-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefHamzabelow-ar.LowHamza": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "alefHamzabelow-ar.fina": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "alefHamzabelow-ar.fina.KafAlf": {
+   "dxA": 15,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "alefHamzabelow-ar.fina.LamAlfFina": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "alefMadda-ar": {
+   "dxA": -60,
+   "dyA": 120
+  },
+  "alefMadda-ar.fina": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": -60
+  },
+  "alefMadda-ar.fina.KafAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefMadda-ar.fina.KafMemAlf": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "alefMaksura-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.init.BaaSenInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "alefMaksura-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "alefMaksura-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "alefThreeabove-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "alefThreeabove-ar.fina": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefThreeabove-ar.fina.KafAlf": {
+   "dxA": -10,
+   "dyA": 0
+  },
+  "alefThreeabove-ar.fina.LamAlfFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefTwoabove-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefTwoabove-ar.fina": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefTwoabove-ar.fina.KafAlf": {
+   "dxA": -35,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefTwoabove-ar.fina.LamAlfFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefTwoabove-ar.fina.LamAlfIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "alefWasla-ar": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "alefWasla-ar.fina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "alefWasla-ar.fina.KafAlf": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "alefWavyhamzaabove-ar": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "alefWavyhamzaabove-ar.fina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "alefWavyhamzaabove-ar.fina.KafAlf": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "alefWavyhamzabelow-ar": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "alefWavyhamzabelow-ar.LowHamza": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "alefWavyhamzabelow-ar.fina": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 160,
+   "dyB": 0
+  },
+  "alefWavyhamzabelow-ar.fina.KafAlf": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "beeh-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beeh-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "beeh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beeh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beeh-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beeh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beeh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beeh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "beeh-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beh-ar.init": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "beh-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beh-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "beh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "beh-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "beh-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "beh-ar.medi.BaaHehMedi": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "beh-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 80
+  },
+  "beh-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "beh-ar.medi.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behDotless-ar.init": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.init.BaaRaaIsol": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behDotless-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behDotless-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behDotless-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behDotless-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behDotless-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.BaaMemFina": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "behThreedotshorizontalbelow-ar.medi.High": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.medi.BaaHehMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupabove-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behThreedotsupbelow-ar.medi.High": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi.BaaBaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "behTwodotsbelowDotabove-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behVabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behVabove-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behVabove-ar.init.BaaDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "behVabove-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behVabove-ar.init.Wide": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVabove-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behVabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behVabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVabove-ar.medi.BaaHehMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behVabove-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "behVbelow-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "behVbelow-ar.init.BaaBaaYaa": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi": {
+   "dxA": -50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "behVbelow-ar.medi.High": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "behVinvertedbelow-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "behVinvertedbelow-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "behVinvertedbelow-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "beheh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "beheh-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "beheh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "beheh-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beheh-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beheh-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "beheh-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dahal-ar.fina.BaaDal": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dalDotbelowTah-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dalDotbelowTah-ar.fina.KafDal": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "dalDotbelowTah-ar.fina.LamDal": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dalFourdots-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dalFourdots-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dalFourdots-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dalThreedotsdown-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "dalThreedotsdown-ar.fina.KafDal": {
+   "dxA": -50,
+   "dyA": 20
+  },
+  "dalTwodotsverticalbelowTah-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dalTwodotsverticalbelowTah-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "dalVinvertedabove-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "ddal-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ddal-ar.fina.KafDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "dul-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "dul-ar.fina.KafDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "dul-ar.fina.LamDal": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "dyeh-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "e-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "e-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "e-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "e-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "feh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "feh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehDotless-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "fehDotless-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehDotmovedbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "fehDotmovedbelow-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "fehDotmovedbelow-ar.medi.FaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehThreedotsbelow-ar.fina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "fehThreedotsbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "fehThreedotsbelow-ar.init.FaaYaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "fehThreedotsbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehThreedotsupbelow-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "fehThreedotsupbelow-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "fehThreedotsupbelow-ar.medi.FaaYaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "fehTwodotsbelow-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "fehTwodotsbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "gafThreedots-ar.init.KafLam": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "gafThreedots-ar.medi.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "gueh-ar.init": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "gueh-ar.init.KafLam": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "gueh-ar.init.PreHeh": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "gueh-ar.medi.KafLam": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hah-ar.medi.2LamHaaHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hah-ar.medi.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "hah-ar.medi.BaaHaaMemInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hah-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hah-ar.medi.SadHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahFourbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "hahFourbelow-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.2LamHaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.BaaBaaHaaInit": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "hahHamzaabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahHamzaabove-ar.medi.SadHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahTahTwodotshorizontalabove-ar.medi.2LamHaaHaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hahTahTwodotshorizontalabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.HaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTahabove-ar.medi.SadHaaInit": {
+   "dxA": 50,
+   "dyA": 20
+  },
+  "hahTahbelow-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.1LamHaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.BaaHaaMemInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "hahThreedotsabove-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.Finjani": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahThreedotsabove-ar.medi.SadHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hahThreedotsupbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "hahThreedotsupbelow-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hahTwodotshorizontalabove-ar.medi.AynHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTwodotshorizontalabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "hahTwodotsverticalabove-ar.medi.BaaHaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "hahTwodotsverticalabove-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "heh-ar.init.HehHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "heh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "heh-ar.medi.BaaHehMedi": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "heh-ar.medi.LamHehInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "hehVinvertedabove-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "hehVinvertedabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hehVinvertedabove-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "hehgoal-ar.init.HehHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "hehgoal-ar.medi.BaaHehMedi": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "highhamzaAlef-ar": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "highhamzaYeh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "jeem-ar.fina.AboveHaaIsol2": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "jeem-ar.medi.1LamHaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "jeem-ar.medi.2LamHaaHaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "jeem-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "jeem-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "jeem-ar.medi.SadHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "jeh-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "jeh-ar.fina.LamRaaIsol": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "kafDotbelow-ar.init": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "kafDotbelow-ar.init.KafBaaInit": {
+   "dxB": 0,
+   "dyB": -40
+  },
+  "kafTwodotshorizontalabove-ar.medi.KafHeh": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "kashida-ar.1": {
+   "dxA": -60,
+   "dxB": -60,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "kashida-ar.2": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "kehehDotabove-ar.init.AboveHaa": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "kehehDotabove-ar.init.KafHeh": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "kehehDotabove-ar.init.KafRaaIsol": {
+   "dxA": -50,
+   "dyA": 60
+  },
+  "kehehDotabove-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehDotabove-ar.medi.KafRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.init.AboveHaa": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.init.KafLam": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "kehehThreedotsabove-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.medi.KafLam": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kehehThreedotsabove-ar.medi.KafMemAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "kehehTwodotshorizontalabove-ar.medi.KafHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "khah-ar.medi.1LamHaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "khah-ar.medi.2LamHaaHaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "khah-ar.medi.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "khah-ar.medi.FaaHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "khah-ar.medi.FaaHaaInit.KafKhah": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "khah-ar.medi.FaaHaaInit.LamKhah": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "khah-ar.medi.SadHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "kirghizoe-ar.fina": {
+   "dxB": -60,
+   "dyB": 0
+  },
+  "kirghizyu-ar.fina": {
+   "dxB": -60,
+   "dyB": 0
+  },
+  "lam-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.fina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.fina.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.fina.LamLamFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.fina.LamLamIsol": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.init": {
+   "dxA": 0,
+   "dxB": 60,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "lam-ar.init.LamBaaMemInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "lam-ar.init.LamHaaHaaInit": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "lam-ar.init.LamHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lam-ar.init.LamHehInit": {
+   "dxA": 0,
+   "dyA": 100
+  },
+  "lam-ar.init.LamLamHaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lam-ar.init.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lam-ar.init.LamRaaIsol": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "lam-ar.medi.KafLam": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi.KafLamAlf": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.medi.KafLamHehIsol": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.medi.KafLamYaa": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamAlfFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamHaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamHehIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamMedi": {
+   "dxA": 25,
+   "dyA": 20
+  },
+  "lam-ar.medi.LamLamMedi2": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamLamMemMedi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamMemFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "lam-ar.medi.LamQafFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lam-ar.medi.LamWawFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamBar-ar.fina.KafMemLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamBar-ar.init": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.init.LamAlfIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamHaaHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamLamHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamBar-ar.init.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "lamBar-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.KafLam": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.LamLamHehFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "lamBar-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamBar-ar.medi.LamLamMedi2": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamDotabove-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamDotabove-ar.fina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamDotabove-ar.fina.LamLamFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamDotabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamDotabove-ar.init.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "lamDotabove-ar.medi": {
+   "dxA": 0,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamDotabove-ar.medi.KafLam": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamDotabove-ar.medi.LamLamAlefFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamDotabove-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamThreedotsabove-ar.fina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.init.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.medi.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamThreedotsabove-ar.medi.LamLamMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.fina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.fina.LamLamFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init": {
+   "dxA": 25,
+   "dxB": 60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamThreedotsbelow-ar.init.LamHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamHehInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.init.LamMemInit": {
+   "dxA": 0,
+   "dyA": 40
+  },
+  "lamThreedotsbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.medi.LamLamHaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "lamThreedotsbelow-ar.medi.LamLamInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.medi.LamLamMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamThreedotsbelow-ar.medi.LamLamMedi2": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "lamVabove-ar.fina.KafLam": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "lamVabove-ar.init.LamLamInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "lamVabove-ar.init.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "lamVabove-ar.medi": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 60,
+   "dyB": 0
+  },
+  "lamVabove-ar.medi.KafLam": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamVabove-ar.medi.LamLamMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "lamVabove-ar.medi.LamLamMedi2": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "lamVabove-ar.medi.LamYaaFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "meem-ar.fina.BaaMemFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "meem-ar.fina.KafMemIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "meem-ar.init.MemHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.init.MemMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.medi.BaaBaaMemInit": {
+   "dxA": -60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "meem-ar.medi.BaaMemInit": {
+   "dxA": -50,
+   "dxB": 35,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "meem-ar.medi.KafMemMedi": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "meem-ar.medi.LamBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "meem-ar.medi.LamHaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "meem-ar.medi.LamMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "meem-ar.medi.LamMemInitTatweel": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "meem-ar.medi.SenMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "meemDotbelow-ar.medi.LamMemMedi": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "ng-ar.init": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "ng-ar.init.KafLam": {
+   "dxA": 60,
+   "dyA": 20
+  },
+  "ng-ar.init.KafMemAlf": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ng-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "ng-ar.medi.KafHeh": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ng-ar.medi.KafLam": {
+   "dxA": 0,
+   "dyA": 160
+  },
+  "ng-ar.medi.KafRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ngoeh-ar.init": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "ngoeh-ar.init.AboveHaa": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafHeh": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafLam": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafMemMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "ngoeh-ar.medi.KafRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noon-ar.init": {
+   "dxA": 50,
+   "dxB": 10,
+   "dyA": 0,
+   "dyB": -40
+  },
+  "noon-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": -100
+  },
+  "noon-ar.init.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noon-ar.init.BaaBaaYaa": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noon-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noon-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "noon-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noon-ar.init.YaaBari": {
+   "dxA": 0,
+   "dyA": 80
+  },
+  "noon-ar.medi": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaBaaInit": {
+   "dxA": -35,
+   "dxB": 25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "noon-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noon-ar.medi.BaaHehMedi": {
+   "dxA": 25,
+   "dyA": 20
+  },
+  "noon-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noon-ar.medi.High": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noon-ar.medi.KafBaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "noon-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noon-ar.medi.LamBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noon-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 40
+  },
+  "noonDotbelow-ar.init": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonDotbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonDotbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 20
+  },
+  "noonDotbelow-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonDotbelow-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonRing-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonRing-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonRing-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonRing-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonRing-ar.medi.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonRing-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "noonRing-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonRing-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonRing-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTahabove-ar.init": {
+   "dxA": 50,
+   "dyA": 120
+  },
+  "noonTahabove-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTahabove-ar.init.BaaMemIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonTahabove-ar.init.High": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "noonTahabove-ar.init.Wide": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonTahabove-ar.medi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonTahabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonTahabove-ar.medi.BaaBaaInit": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTahabove-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTahabove-ar.medi.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.BaaBaaMemInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.init.BaaSenAltInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.init.High": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaBaaYaa": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaMemFina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonThreedotsabove-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonThreedotsabove-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.init": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonTwodotsbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 20
+  },
+  "noonTwodotsbelow-ar.medi.High": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "noonTwodotsbelow-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonVabove-ar.init": {
+   "dxA": 50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonVabove-ar.init.BaaBaaIsol": {
+   "dxA": 0,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonVabove-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonVabove-ar.init.Wide": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonVabove-ar.medi": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonVabove-ar.medi.BaaBaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "noonVabove-ar.medi.BaaRaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "noonVabove-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonghunna-ar.init": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonghunna-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonghunna-ar.init.BaaHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "noonghunna-ar.init.BaaRaaIsol": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonghunna-ar.init.High": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "noonghunna-ar.medi": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "noonghunna-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "noonghunna-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "noonghunna-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "nyeh-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "nyeh-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "oe-ar.fina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "peh-ar.init.BaaBaaHaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "peh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "peh-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "peh-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "peh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "peh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "peh-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "peh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "peh-ar.medi.BaaMemFina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "peh-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "peh-ar.medi.High": {
+   "dxA": -50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "peheh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "peheh-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "qaf-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "qaf-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "qafDotabove-ar.init": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "qafDotabove-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "qafDotless-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "qafThreedotsabove-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "reh-ar.fina": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "reh-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "reh-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "reh-ar.fina.LamRaaIsol": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehDotbelow-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "rehDotbelowdotabove-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehFourdots-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehFourdots-ar.fina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehFourdots-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehFourdots-ar.fina.BaaRaaIsol": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehFourdots-ar.fina.KafRaaIsol": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "rehHamzaabove-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehHamzaabove-ar.fina.BaaRaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehHamzaabove-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehHamzaabove-ar.fina.LamRaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehRing-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehRing-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehRing-ar.fina.KafRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehRing-ar.fina.LamRaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehStroke-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehStroke-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehStroke-ar.fina.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "rehTwodots-ar": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehTwodots-ar.fina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodots-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.BaaRaaFina": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.BaaRaaIsol": {
+   "dxA": 50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.KafRaaFina": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "rehTwodotshorizontalaboveTahabove-ar.fina.KafRaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehTwodotsverticalabove-ar.fina.BaaRaaFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "rehTwodotsverticalabove-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehVbelow-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehVinvertedabove-ar.fina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rehVinvertedabove-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehVinvertedabove-ar.fina.BaaRaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "rehVinvertedabove-ar.fina.LamRaaIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehv-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rehv-ar.fina": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rehv-ar.fina.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehv-ar.fina.BaaRaaIsol": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "rehv-ar.fina.LamRaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rnoon-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rnoon-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rnoon-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "rnoon-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rnoon-ar.init.Wide": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "rnoon-ar.medi": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rnoon-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "rnoon-ar.medi.KafBaaInit": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "rnoon-ar.medi.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "rreh-ar": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "rreh-ar.fina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rreh-ar.fina.BaaRaaFina": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "rreh-ar.fina.BaaRaaIsol": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "rreh-ar.fina.LamRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "seenFourabove-ar.fina.BaaSen": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "seenFourabove-ar.medi.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "seenFourabove-ar.medi.BaaSenInit": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "seenTahTwodotshorizontalabove-ar.medi.BaaSenInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tah-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tah-ar.init.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tah-ar.medi": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tahDotbelow-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tahDotbelow-ar.medi": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tahThreedots-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tahThreedots-ar.medi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.1LamHaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.AynHaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "tcheh-ar.medi.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tcheh-ar.medi.LamHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tchehDotabove-ar.medi.1LamHaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tchehDotabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "tchehDotabove-ar.medi.FaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tcheheh-ar.medi.FaaHaaInit": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "teh-ar.init": {
+   "dxA": -25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "teh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 60,
+   "dyA": 80,
+   "dyB": 0
+  },
+  "teh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teh-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.init.Wide": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.init.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teh-ar.medi": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "teh-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "teh-ar.medi.BaaBaaMemInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.medi.BaaHehMedi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.medi.BaaRaaFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "teh-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teh-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "teh-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehMarbuta-ar": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehMarbuta-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehMarbutagoal-ar": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehMarbutagoal-ar.fina": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehRing-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehRing-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehRing-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.medi": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "tehRing-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehRing-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 20
+  },
+  "tehRing-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehRing-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init.BaaDal": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.init.Wide": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "tehThreedotsdown-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi.High": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsdown-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "tehThreedotsupbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehThreedotsupbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tehThreedotsupbelow-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tehThreedotsupbelow-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.init": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "teheh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "teheh-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.medi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "teheh-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "teheh-ar.medi.YaaBari": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "thal-ar.fina.KafDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "theh-ar.init": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 60,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "theh-ar.init.BaaBaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "theh-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "theh-ar.init.BaaSenInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "theh-ar.init.High": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.init.Wide": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "theh-ar.medi.BaaBaaYaa": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaHehMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "theh-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "theh-ar.medi.BaaYaaFina": {
+   "dxB": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.High": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "theh-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "theh-ar.medi.KafBaaMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "theh-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteh-ar.init": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "tteh-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tteh-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteh-ar.init.Wide": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tteh-ar.medi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "tteh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tteh-ar.medi.High": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "tteh-ar.medi.YaaBari": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "tteheh-ar.init": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "tteheh-ar.init.BaaSenAltInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "tteheh-ar.init.BaaSenInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "tteheh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "tteheh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.BaaRaaFina": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.KafBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.KafBaaMedi": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "tteheh-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "u-ar": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "u-ar.fina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "u-ar.fina.LamWawFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "ve-ar.fina": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "veh-ar.init": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "veh-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "waw-ar.fina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawDotabove-ar.fina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "wawHamzaabove-ar": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "wawHamzaabove-ar.fina": {
+   "dxA": 25,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawThreeAbove-ar.fina": {
+   "dxA": 25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "wawThreeAbove-ar.fina.LamWawFina": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "wawTwoabove-ar.fina": {
+   "dxB": -60,
+   "dyB": 0
+  },
+  "wawTwodots-ar.fina": {
+   "dxA": -25,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.init": {
+   "dxA": 0,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.init.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yeh-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": -20
+  },
+  "yeh-ar.init.High": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yeh-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": -20
+  },
+  "yeh-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 40,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yeh-ar.medi.BaaBaaYaa": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yeh-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.medi.BaaYaaFina": {
+   "dxB": -50,
+   "dyB": 0
+  },
+  "yeh-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yeh-ar.medi.YaaBari": {
+   "dxA": 0,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init": {
+   "dxA": 25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaNonIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehFarsi-ar.init.BaaRaaIsol": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": -20
+  },
+  "yehFarsi-ar.init.High": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 0,
+   "dyA": 100,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.medi.BaaMemFina": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.BaaYaaFina": {
+   "dxB": 0,
+   "dyB": -20
+  },
+  "yehFarsi-ar.medi.High": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsi-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsi-ar.medi.YaaBari": {
+   "dxA": 50,
+   "dyA": 20
+  },
+  "yehFarsiFourbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehFarsiFourbelow-ar.medi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.medi.BaaHehMedi": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehFarsiFourbelow-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.fina.BaaBaaYaa": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init.BaaBaaIsol": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.init.BaaBaaMemInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.init.High": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.init.Wide": {
+   "dxA": 60,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi": {
+   "dxA": -10,
+   "dxB": 25,
+   "dyA": 20,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.medi.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehFarsiThreeabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 40
+  },
+  "yehFarsiThreeabove-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreeabove-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 20
+  },
+  "yehFarsiThreedotsabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaBaaMemInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaHehMedi": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiThreedotsabove-ar.medi.YaaBari": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.init": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.init.BaaBaaIsol": {
+   "dxA": 60,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwoabove-ar.medi": {
+   "dxA": -60,
+   "dyA": 80
+  },
+  "yehFarsiTwoabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": -40
+  },
+  "yehFarsiTwoabove-ar.medi.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 20
+  },
+  "yehFarsiTwoabove-ar.medi.BaaNonFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiTwoabove-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwoabove-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.High": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.init.Wide": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.BaaBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiTwodotsabove-ar.medi.High": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehFarsiVinverted-ar.init": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehFarsiVinverted-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehFarsiVinverted-ar.init.High": {
+   "dxA": 25,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": -40
+  },
+  "yehFarsiVinverted-ar.medi": {
+   "dxA": 25,
+   "dyA": 40
+  },
+  "yehFarsiVinverted-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "yehFarsiVinverted-ar.medi.KafBaaInit": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.init": {
+   "dxA": 50,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaBaaHaaInit": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": -100
+  },
+  "yehHamzaabove-ar.init.BaaBaaYaa": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaMemInit": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.BaaRaaIsol": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.init.High": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.init.Wide": {
+   "dxA": 50,
+   "dyA": 40
+  },
+  "yehHamzaabove-ar.medi": {
+   "dxA": 0,
+   "dxB": 0,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaBaaHaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dxB": 50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaBaaYaa": {
+   "dxA": 0,
+   "dxB": -50,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaHehMedi": {
+   "dxA": 50,
+   "dyA": 20
+  },
+  "yehHamzaabove-ar.medi.BaaRaaFina": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.BaaYaaFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehHamzaabove-ar.medi.High": {
+   "dxA": 35,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.medi.KafBaaInit": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.medi.KafBaaMedi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehHamzaabove-ar.medi.YaaBari": {
+   "dxA": -25,
+   "dyA": 20
+  },
+  "yehKashmiri-ar.init.BaaBaaIsol": {
+   "dxA": 25,
+   "dxB": 25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehKashmiri-ar.init.BaaRaaIsol": {
+   "dxB": 25,
+   "dyB": 0
+  },
+  "yehKashmiri-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.medi": {
+   "dxA": 0,
+   "dyA": 60
+  },
+  "yehKashmiri-ar.medi.BaaBaaInit": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehKashmiri-ar.medi.High": {
+   "dxA": -35,
+   "dyA": 0
+  },
+  "yehRohingya-ar": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.fina.KafYaaIsol": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaBaaHaaInit": {
+   "dxB": 50,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaBaaHeh": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.BaaHaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.init.High": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi": {
+   "dxA": 25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaBaaHaaInit": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaBaaInit": {
+   "dxA": -60,
+   "dxB": -50,
+   "dyA": 80,
+   "dyB": -20
+  },
+  "yehThreedotsbelow-ar.medi.BaaBaaYaa": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaHehMedi": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaNonFina": {
+   "dxB": -25,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaRaaFina": {
+   "dxA": -25,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.BaaYaaFina": {
+   "dxB": 60,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.High": {
+   "dxA": -50,
+   "dxB": -60,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehThreedotsbelow-ar.medi.LamBaaMemInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehThreedotsbelow-ar.medi.YaaBari": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.init": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.init.BaaBaaIsol": {
+   "dxA": 50,
+   "dyA": 0
+  },
+  "yehVabove-ar.init.BaaDal": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi.BaaBaaInit": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi.BaaRaaFina": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehVabove-ar.medi.KafBaaInit": {
+   "dxA": 25,
+   "dyA": 0
+  },
+  "yehbarree-ar.fina.PostAscender": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "yehbarree-ar.fina.PostToothFina": {
+   "dxA": -60,
+   "dxB": -25,
+   "dyA": 0,
+   "dyB": 0
+  },
+  "yehbarreeThreeabove-ar.fina.PostAscender": {
+   "dxA": -25,
+   "dyA": 0
+  },
+  "yehbarreeThreeabove-ar.fina.PostAyn": {
+   "dxA": -50,
+   "dyA": 0
+  },
+  "yehbarreeThreeabove-ar.fina.PostToothFina": {
+   "dxA": -60,
+   "dyA": 40
+  },
+  "yehbarreeTwoabove-ar.fina.PostToothFina": {
+   "dxA": -60,
+   "dyA": 0
+  },
+  "yu-ar.fina": {
+   "dxB": -60,
+   "dyB": 0
+  },
+  "zah-ar.init": {
+   "dxA": 0,
+   "dyA": 0
+  },
+  "zain-ar.fina.BaaRaaIsol": {
+   "dxB": -50,
+   "dyB": 0
+  }
+ }
+}

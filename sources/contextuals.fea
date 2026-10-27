@@ -910,7 +910,6 @@ lookup LamKhahDot {
 lookup KafKhahDot {
     lookupflag IgnoreMarks;
     sub [kaf-ar.init.AboveHaa kafDotbelow-ar.init.AboveHaa] khah-ar.fina.AboveHaaIsol2' by khah-ar.fina.AboveHaaIsol2.KafKhah;
-    sub [kaf-ar.init.AboveHaa kafDotbelow-ar.init.AboveHaa] khah-ar.medi.FaaHaaInit' by khah-ar.medi.FaaHaaInit.KafKhah;
 } KafKhahDot;
 
 feature rlig {

@@ -107,3 +107,23 @@ tidak dipakai untuk melatih koreksi, tanda yang berjarak < 22 unit dari huruf/ta
   diperbaiki lewat posisi titik.
 - Untuk mengubah posisi titik satu varian, edit transform komponen `dotbelow-ar` (atau `dotabove-ar`
   pada glyph khah) di berkas `.glyph` terkait, pada kedua master (Regular dan Bold).
+
+## Bobot Medium dan SemiBold
+
+Amiri hanya punya dua master (Regular 400 dan Bold 700). Medium (500) dan SemiBold (600)
+dibuat oleh `scripts/weights.py` dengan interpolasi antara kedua master:
+
+- Glyph yang strukturnya cocok di kedua master (sekitar 92%) diinterpolasi langsung, termasuk
+  posisi titik dan anchor tashkil.
+- Glyph yang tidak cocok (sekitar 8%, misalnya alif akhir dan sebagian bentuk ain) dibuat dengan
+  menebalkan kontur Regular sampai luasnya sama dengan luas hasil interpolasi.
+- Hasil interpolasi yang luasnya menyimpang dari yang diharapkan otomatis diganti dengan cara kedua.
+
+Cara membangun (setelah `make`):
+
+```sh
+sh scripts/make-weights.sh
+```
+
+Hasilnya `fonts/AmiriPegon-Medium.ttf` dan `fonts/AmiriPegon-SemiBold.ttf`. ExtraBold tidak
+tersedia karena membutuhkan ekstrapolasi di luar Bold, yang membuat jarak titik terlalu sempit.

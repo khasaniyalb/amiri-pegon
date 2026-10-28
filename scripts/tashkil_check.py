@@ -11,18 +11,19 @@
 import argparse, json, os, random, sys, collections
 import uharfbuzz as hb
 from fontTools.ttLib import TTFont
-from fontTools.pens.recordingPen import RecordingPen
+from fontTools.pens.recordingPen import DecomposingRecordingPen
 from shapely.geometry import Polygon
 from shapely.ops import unary_union
 from shapely import affinity
 
 sys.path.insert(0, os.path.dirname(__file__))
-from tashkil_anchors import _flatten
+from tashkil_anchors import _flatten, is_locked
 
 LETTERS = list("ابتثجحخدذرزسشصضطظعغفقكلمنهويةءؤئأإ") + \
     ["\u06A0", "\u06A4", "\u0686", "\u0762", "\u08B4", "\u088B", "\u06BD", "\u06D1", "\u06A9", "\u06CC"]
 HARAKAT = ["\u064E", "\u064F", "\u0650", "\u064B", "\u064C", "\u064D", "\u0652"]
 SHADDA = "\u0651"
+MINDY = 60    # how far a mark may be moved towards its own letter
 MAXDY = 160   # cap on a single round; total is clamped again in tashkil_anchors
 ADJ = os.path.join(os.path.dirname(__file__), "..", "sources", "tashkil-adjust.json")
 
@@ -64,7 +65,7 @@ class Geo:
 
     def poly(self, name):
         if name in self.cache: return self.cache[name]
-        pen = RecordingPen(); self.gs[name].draw(pen)
+        pen = DecomposingRecordingPen(self.gs); self.gs[name].draw(pen)
         flat, sub = [], []
         for op, a in pen.value:
             sub.append((op, a))
@@ -81,6 +82,7 @@ class Geo:
             (outers if area < 0 else holes).append(pg)   # TrueType: clockwise = filled
         g = unary_union(outers) if outers else Polygon()
         if holes: g = g.difference(unary_union(holes))
+        g = g.simplify(2.5)
         self.cache[name] = g
         return g
 
@@ -107,18 +109,18 @@ def instances(geo, text, MIN):
     for i, it in enumerate(items): by[it["cl"]].append(i)
     res = []
     for cl, idxs in by.items():
-        bases = [i for i in idxs if not items[i]["mark"]]
+        bases = [i for i in idxs if not items[i]["mark"] and not items[i]["poly"].is_empty]
         if not bases: continue
         b = items[bases[0]]
         for side in ("A", "B"):
             g = [items[i] for i in idxs if items[i]["mark"] and not items[i]["poly"].is_empty and
                  ((items[i]["poly"].centroid.y > 0) == (side == "A"))]
             if not g: continue
-            grp = unary_union([m["poly"] for m in g]).simplify(2)
+            grp = unary_union([m["poly"] for m in g])
             near = grp.buffer(260).bounds           # only what can matter after a shift
             others = unary_union([it["poly"] for j, it in enumerate(items) if j not in idxs
-                                  and not it["poly"].is_empty and _hits(it["poly"], near)]).simplify(3)
-            own = b["poly"].simplify(3)
+                                  and not it["poly"].is_empty and _hits(it["poly"], near)])
+            own = b["poly"]
             res.append((b["name"], side, grp, others, own))
     return res
 
@@ -137,14 +139,16 @@ def violates(grp, others, own, dx, dy, MIN, MINSELF):
 
 def collect(path, words, MIN):
     geo = Geo(path); cons = collections.defaultdict(list); total = bad = 0
+    global SIDEBAD
+    SIDEBAD = collections.Counter()
     for w in words:
         for base, side, grp, others, own in instances(geo, w, MIN):
             total += 1
-            v = violates(grp, others, own, 0, 0, MIN, 10); bad += v
+            v = violates(grp, others, own, 0, 0, MIN, 22); bad += v; SIDEBAD[side] += v; SIDEBAD['n'+side] += 1
             lst = cons[(base, side)]
             if v or len(lst) < 8:
                 lst.append((grp, others, own))
-    return total, bad, dict(cons)
+    return total, bad, dict(cons), dict(SIDEBAD)
 
 
 def main():
@@ -160,13 +164,15 @@ def main():
     words = make_words(a.words, a.seed, all_letters(a.font))
     chunks = [words[i::os.cpu_count()] for i in range(os.cpu_count())]
     with mp.Pool(os.cpu_count()) as pool:
-        for t, b, c in pool.starmap(collect, [(a.font, ch, a.min) for ch in chunks]):
-            total += t; bad += b
+        sb = collections.Counter()
+        for t, b, c, sd in pool.starmap(collect, [(a.font, ch, a.min) for ch in chunks]):
+            total += t; bad += b; sb.update(sd)
             for k, v in c.items():
                 cons[k].extend(v)
     for k in cons:   # keep violating contexts first, cap size
-        cons[k].sort(key=lambda t: -violates(*t, 0, 0, a.min, 10))
+        cons[k].sort(key=lambda t: -violates(*t, 0, 0, a.min, 22))
         cons[k] = cons[k][:16]
+    print(f"  above: {sb['A']}/{sb['nA']}  below: {sb['B']}/{sb['nB']}")
     print(f"{a.font}: {total} mark groups, {bad} too close (<{a.min}u) = {100*bad/max(total,1):.2f}%; "
           f"{len(set(b for b, s in cons))} distinct base glyphs seen")
     adj = {}
@@ -174,13 +180,13 @@ def main():
     adj.setdefault(a.master, {})
     fixed = unfixed = 0
     for (base, side), lst in cons.items():
-        if not any(violates(g, o, w, 0, 0, a.min, 10) for g, o, w in lst): continue
+        if is_locked(base, a.master) or not any(violates(g, o, w, 0, 0, a.min, 22) for g, o, w in lst): continue
         sgn = 1 if side == "A" else -1
         best = None
-        for dy in range(0, MAXDY+1, 20):
+        for dy in range(-MINDY, MAXDY+1, 20):
             for dx in (0, 25, -25, 50, -50):
-                v = sum(violates(g, o, w, dx, sgn*dy, a.min, 10) for g, o, w in lst)
-                c = (v * 50 + dy + 0.8*abs(dx), v)       # a violation is worth ~50u of shift
+                v = sum(violates(g, o, w, dx, sgn*dy, a.min, 22) for g, o, w in lst)
+                c = (v * 50 + abs(dy) + 0.8*abs(dx), v)       # a violation is worth ~50u of shift
                 if best is None or c < best[0]: best = (c, dx, dy)
         (cost, v), dx, dy = best
         if v == 0: fixed += 1

@@ -1,0 +1,38 @@
+{
+ "Regular": {
+  "re:^meem.*-ar\\.medi\\.KafMemMedi$": {
+   "dxA": -24,
+   "dyA": 126
+  },
+  "re:^meem.*-ar\\.medi\\.KafMemAlf$": {
+   "dxA": 0,
+   "dyA": 66
+  },
+  "re:^[^a].*-ar\\.medi\\.(MemHaaMemInit|BaaHaaMemInit)$": {
+   "dxA": -30,
+   "dyA": 18
+  },
+  "re:^(beh|teh|theh|noon)-ar\\.medi$": {
+   "dxA": 0,
+   "dyA": -12
+  }
+ },
+ "Bold": {
+  "re:^meem.*-ar\\.medi\\.KafMemMedi$": {
+   "dxA": -24,
+   "dyA": 126
+  },
+  "re:^meem.*-ar\\.medi\\.KafMemAlf$": {
+   "dxA": 0,
+   "dyA": 66
+  },
+  "re:^[^a].*-ar\\.medi\\.(MemHaaMemInit|BaaHaaMemInit)$": {
+   "dxA": -30,
+   "dyA": 18
+  },
+  "re:^(beh|teh|theh|noon)-ar\\.medi$": {
+   "dxA": 0,
+   "dyA": -12
+  }
+ }
+}

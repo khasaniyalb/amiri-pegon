@@ -15,7 +15,7 @@ DIST=$(NAME)-$(VERSION)
 LICENSE=OFL.txt
 
 BUILD=${SCRIPTSDIR}/build.py
-TASHKIL=scripts/tashkil_anchors.py $(wildcard sources/tashkil-adjust.json)
+TASHKIL=scripts/tashkil_anchors.py $(wildcard sources/tashkil-*.json)
 MAKEQURAN=${SCRIPTSDIR}/mkquran.py
 PY ?= python
 

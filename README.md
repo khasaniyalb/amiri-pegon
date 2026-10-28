@@ -95,6 +95,24 @@ dibatasi maksimum 160 unit vertikal dan 60 unit horizontal. Pada 9.000 kata acak
 tidak dipakai untuk melatih koreksi, tanda yang berjarak < 22 unit dari huruf/tanda tetangga turun dari
 3,03% menjadi 0,42% (Regular) dan 3,89% menjadi 0,78% (Bold).
 
+### Koreksi manual dan aturan khusus konteks
+
+- `sources/tashkil-manual.json` memuat koreksi hasil pilihan manual ({master: {glyph atau `re:<regex>`: {dxA, dyA, dxB, dyB}}}).
+  Nilainya *menggantikan* koreksi otomatis dan tidak disentuh `tashkil_check.py`. Isinya saat ini: meem di ligatur
+  kaf+meem (`KafMemMedi`, `KafMemAlf`), ha/jim di tengah (`MemHaaMemInit`, `BaaHaaMemInit`), dan ب ت ث ن bentuk tengah.
+- Fa/qaf awal sebelum jim/ha/kha (`init.FaaHaaInit`): tanda diletakkan tepat di atas kepala dan titik fa; tanda huruf
+  sesudahnya (`fina.AboveHaaIsol2`, `medi.FaaHaaInit`) dihitung sejajar secara diagonal di kiri-bawah tanda fa (`FEH_*` di `P`).
+- Bentuk tengah sebelum yeh akhir/bari (nama konteks memuat `Yaa`/`Bari`): anchor bawah asli Amiri dipertahankan
+  bila lebih dalam, supaya kasra tidak tertutup lengkung yeh.
+
+### Catatan tentang pengukur tabrakan
+
+`tashkil_check.py` membaca TTF hasil build, yang glyph hurufnya berupa komponen. Versi awal tidak mendekomposisi
+komponen sehingga hanya melihat sebagian geometri, dan angka perbaikan yang dilaporkan waktu itu terlalu optimis.
+Sekarang komponen didekomposisi. Dengan 6.000 kata acak (seed 2026), tanda yang berjarak < 22 unit dari tetangganya:
+Regular 5,90% (font awal) menjadi 2,91%; Bold 8,69% menjadi 4,51%. Sisanya sebagian besar tabrakan antar-tanda pada
+huruf berdampingan yang tidak bisa diselesaikan hanya dengan anchor per glyph.
+
 ## Catatan
 
 - Koreksi tabrakan hanya mencakup glyph yang muncul pada kata acak uji (sekitar 3.000 dari 5.000 glyph

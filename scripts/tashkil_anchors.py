@@ -24,6 +24,8 @@ P = dict(
     ASC_MIN=600,     # body points above this height form an "ascender" (alef, lam, tah, kaf...)
     GAP_STEM=105,    # clearance between mark and the top of the ascender
     STEM_REACH=340,  # ascender counts for the mark if its tip is at most this far (x) from the anchor
+    FEH_DOT_GAP=45,  # feh/qaf init before jeem/hah/kha: clearance of the mark above the dot(s)
+    FEH_GAP=70,      # feh+jeem/hah/kha: gap between the two marks along their common diagonal
     KAF_LEFT=145,    # kaf family: mark sits this far left of the stroke tip (Scheherazade: ~240)
     STEM_SPAN=300,   # tip narrower than this: anchor x is centred on it (ا ل ط ظ ك)
     GAP_B=75,        # clearance below dots/body that already hang under baseline
@@ -32,7 +34,14 @@ P = dict(
 )
 DOT_RE = re.compile(r"^(dot|twodots|threedots|fourdots|ring|vabove|vbelow|"
                     r"dotbelow|dotabove|twodotsbelow|twodotsabove|hamza)")
+FEH_INIT = re.compile(r"^(feh|fehDotless|fehDotbelow|fehDotmovedbelow|fehThreedotsbelow|fehThreedotsupbelow|"
+                      r"fehTwodotsbelow|peheh|qaf|qafDotabove|qafDotless|qafThreedotsabove|veh)-ar\.init\.FaaHaaInit$")
+FEH_FOLLOW = re.compile(r"^[^a][^.]*-ar\.(fina\.AboveHaaIsol2|medi\.FaaHaaInit)(\..*)?$")
 KAF = ("kaf", "keheh", "gaf")
+# Contextual forms in front of a final/bari yeh: Amiri sets their TashkilBelow deeper by hand so
+# that the mark clears the bowl of the yeh that runs underneath. The glyph outline alone cannot
+# tell us that, so for these we keep Amiri's value whenever it is deeper than the computed one.
+KEEP_DEEP_BELOW = re.compile(r"^[^.]+\.[^.]+\..*(Yaa|Bari)")
 ABOVE_REF = ["fatha-ar", "damma-ar", "sukun-ar", "shadda-ar", "fathatan-ar", "dammatan-ar"]
 BELOW_REF = ["kasra-ar", "kasratan-ar"]
 
@@ -159,6 +168,50 @@ def center_shift(font):
     return sum(d) / len(d) if d else 0.0
 
 
+def load_manual(master):
+    """sources/tashkil-manual.json: {master: {glyph | "re:<regex>": {dxA,dyA,dxB,dyB}}}.
+    Hand-picked corrections; they replace (not add to) the automatic ones and are never
+    touched by tashkil_check.py."""
+    path = os.path.join(os.path.dirname(__file__), "..", "sources", "tashkil-manual.json")
+    if not os.path.exists(path):
+        return {}, []
+    with open(path) as f:
+        d = json.load(f).get(master, {})
+    exact = {k: v for k, v in d.items() if not k.startswith("re:")}
+    rx = [(re.compile(k[3:]), v) for k, v in d.items() if k.startswith("re:")]
+    return exact, rx
+
+
+def manual_for(name, manual):
+    exact, rx = manual
+    out = dict(exact.get(name, {}))
+    for r, v in rx:
+        if r.fullmatch(name):
+            out.update(v)
+    return out
+
+
+def is_locked(name, master="Regular"):
+    """Glyphs whose anchors are decided by rule/hand, not by the collision optimiser."""
+    return bool(FEH_INIT.match(name) or FEH_FOLLOW.match(name) or manual_for(name, load_manual(master)))
+
+
+def fatha_axis(font):
+    """(dcx, dcy, ux, uy, length): centre of the fatha relative to its attach anchor,
+    and its principal axis (unit vector pointing right/up) and extent."""
+    g = font["fatha-ar"]; b = g.getBounds(font)
+    a = next(a for a in g.anchors if a.name == "_TashkilAbove")
+    pts = outline(font, g)
+    mx = sum(x for x, y in pts) / len(pts); my = sum(y for x, y in pts) / len(pts)
+    cxx = sum((x-mx)**2 for x, y in pts); cyy = sum((y-my)**2 for x, y in pts)
+    cxy = sum((x-mx)*(y-my) for x, y in pts)
+    th = 0.5 * math.atan2(2*cxy, cxx-cyy)
+    ux, uy = math.cos(th), math.sin(th)
+    if ux < 0: ux, uy = -ux, -uy
+    proj = [(x-mx)*ux + (y-my)*uy for x, y in pts]
+    return ((b.xMin+b.xMax)/2 - a.x, (b.yMin+b.yMax)/2 - a.y, ux, uy, max(proj)-min(proj))
+
+
 def load_adjust(master):
     path = os.path.join(os.path.dirname(__file__), "..", "sources", "tashkil-adjust.json")
     if not os.path.exists(path):
@@ -174,6 +227,7 @@ def apply(font, master="Regular"):
     offA, offB, hA, hB = mark_offsets(font)
     cshift = center_shift(font)
     adjust = load_adjust(master)
+    manual = load_manual(master)
     clamp = lambda v, lim: max(-lim, min(lim, v))
     MAXDY, MAXDX = 160, 60     # sanity limits for collision corrections
     log = {}
@@ -190,13 +244,21 @@ def apply(font, master="Regular"):
         if not allp:
             continue
         adj = adjust.get(g.name, {})
+        man = manual_for(g.name, manual)
+
+        def val(key, lim):
+            return man[key] if key in man else clamp(adj.get(key, 0), lim)
         if ta:
+            if FEH_INIT.match(g.name) and body:     # centre the mark over the head of the feh/qaf
+                xs = [x for x, y in body]
+                ta.x = (min(xs) + max(xs)) / 2 + cshift
             w = max(hA, p["HALF"])
             x0, x1 = ta.x - w, ta.x + w
             tb_ = _window(body, x0, x1, "A"); td_ = _window(dots, x0, x1, "A")
             cand = [p["FLOOR_A"]]
             if tb_ is not None: cand.append(tb_ + p["GAP_A"])
-            if td_ is not None: cand.append(td_ + p["GAP_A_DOT"])
+            gdot = p["FEH_DOT_GAP"] if FEH_INIT.match(g.name) else p["GAP_A_DOT"]
+            if td_ is not None: cand.append(td_ + gdot)
             if tb_ is None and td_ is None:   # anchor outside the outline: use glyph top
                 cand.append(max(y for x, y in allp) + p["GAP_A"])
             asc = ascender(body, ta.x, p)
@@ -212,8 +274,8 @@ def apply(font, master="Regular"):
                     td2 = _window(dots, ta.x - w, ta.x + w, "A")
                     cand = [p["FLOOR_A"], (ref if ref is not None else top) + p["GAP_STEM"]] + \
                            ([td2 + p["GAP_A_DOT"]] if td2 is not None else [])
-            ta.y = max(cand) - offA + clamp(adj.get("dyA", 0), MAXDY)
-            ta.x += clamp(adj.get("dxA", 0), MAXDX)
+            ta.y = max(cand) - offA + val("dyA", MAXDY)
+            ta.x += val("dxA", MAXDX)
         if tb:
             w = max(hB, p["HALF"])
             x0, x1 = tb.x - w, tb.x + w
@@ -223,6 +285,26 @@ def apply(font, master="Regular"):
             if bd_ is not None: cand.append(bd_ - p["GAP_B"])
             if bb_ is None and bd_ is None:
                 cand.append(min(y for x, y in allp) - p["GAP_B"])
-            tb.y = min(cand) - offB + clamp(adj.get("dyB", 0), MAXDY)
-            tb.x += clamp(adj.get("dxB", 0), MAXDX)
+            orig_b = tb.y
+            tb.y = min(cand) - offB + val("dyB", MAXDY)
+            if KEEP_DEEP_BELOW.match(g.name):
+                tb.y = min(tb.y, orig_b)
+            tb.x += val("dxB", MAXDX)
+    # feh + jeem/hah/kha: the mark of the following letter sits on the same diagonal as the
+    # mark of the feh, to its lower left (the two fathas continue each other along their slant).
+    if "feh-ar.init.FaaHaaInit" in font and "fatha-ar" in font:
+        dcx, dcy, ux, uy, L = fatha_axis(font)
+        fa = next((a for a in font["feh-ar.init.FaaHaaInit"].anchors if a.name == "TashkilAbove"), None)
+        if fa:
+            span = L + p["FEH_GAP"]
+            for g in font:
+                if not FEH_FOLLOW.match(g.name):
+                    continue
+                ta = next((a for a in g.anchors if a.name == "TashkilAbove"), None)
+                if not ta:
+                    continue
+                man = manual_for(g.name, manual)
+                fcx, fcy = g.width + fa.x + dcx, fa.y + dcy          # feh mark centre, in this glyph's frame
+                ta.x = fcx - span * ux - dcx + man.get("dxA", 0)
+                ta.y = fcy - span * uy - dcy + man.get("dyA", 0)
     return log

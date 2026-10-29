@@ -15,6 +15,43 @@
   "re:^(beh|teh|theh|noon)-ar\\.medi$": {
    "dxA": 0,
    "dyA": -12
+  },
+  "beh-ar.init": {
+   "dxA": 35,
+   "dyA": 120,
+   "dxB": 25,
+   "dyB": 0
+  },
+  "teh-ar.init": {
+   "dxA": 60,
+   "dyA": -40,
+   "dxB": 15,
+   "dyB": -160
+  },
+  "noon-ar.init": {
+   "dxA": 35,
+   "dyA": 0,
+   "dxB": -25,
+   "dyB": -160
+  },
+  "heh-ar.init": {
+   "dyA": -35
+  },
+  "heh-ar.medi.BaaHehMedi": {
+   "dxA": 50
+  },
+  "thal-ar": {
+   "dxA": 25
+  },
+  "yeh-ar.init.Wide": {
+   "dxA": 0
+  },
+  "yeh-ar.medi": {
+   "dxA": 25
+  },
+  "alef-ar": {
+   "dyA": 0,
+   "dyB": 0
   }
  },
  "Bold": {
@@ -33,6 +70,43 @@
   "re:^(beh|teh|theh|noon)-ar\\.medi$": {
    "dxA": 0,
    "dyA": -12
+  },
+  "beh-ar.init": {
+   "dxA": 60,
+   "dyA": 160,
+   "dxB": 50,
+   "dyB": 0
+  },
+  "teh-ar.init": {
+   "dxA": 50,
+   "dyA": 20,
+   "dxB": 25,
+   "dyB": -140
+  },
+  "noon-ar.init": {
+   "dxA": 60,
+   "dyA": -60,
+   "dxB": 0,
+   "dyB": 80
+  },
+  "heh-ar.init": {
+   "dyA": 5
+  },
+  "heh-ar.medi.BaaHehMedi": {
+   "dxA": 0
+  },
+  "thal-ar": {
+   "dxA": 25
+  },
+  "yeh-ar.init.Wide": {
+   "dxA": 25
+  },
+  "yeh-ar.medi": {
+   "dxA": 50
+  },
+  "alef-ar": {
+   "dyA": 0,
+   "dyB": 0
   }
  }
 }

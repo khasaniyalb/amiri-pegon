@@ -105,6 +105,22 @@ tidak dipakai untuk melatih koreksi, tanda yang berjarak < 22 unit dari huruf/ta
 - Bentuk tengah sebelum yeh akhir/bari (nama konteks memuat `Yaa`/`Bari`): anchor bawah asli Amiri dipertahankan
   bila lebih dalam, supaya kasra tidak tertutup lengkung yeh.
 
+### Aturan kontekstual (`sources/tashkil_context.fea`)
+
+Beberapa koreksi tidak bisa dinyatakan lewat anchor, karena glyph yang sama dipakai di samping banyak huruf
+berbeda. Aturan GPOS kontekstual ini dibuat oleh `scripts/make-tashkil-context.py` (jalankan ulang setelah build
+bila daftar glyph berubah) dan disisipkan sesudah lookup `mark` otomatis lewat penanda `# Automatic Code`
+di `Amiri.fea`, sehingga bekerja pada posisi tanda yang sudah final:
+
+- teh/noon awal sebelum kaf tengah: tanda dinaikkan sampai setinggi tanda theh (di atas ujung goresan kaf);
+- beh awal sebelum kaf tengah: tanda diturunkan ke bawah ujung goresan kaf, seperti yeh;
+- hah/jim/kha setelah `lam-ar.init.LamHaaInit`: tanda digeser ke kanan;
+- meem setelah lam sebelum yeh akhir: kasra diturunkan ke bawah lengkung yeh.
+
+Nilai pergeserannya ada di `SHIFTS` pada skrip. Tanda yang menumpuk pada satu huruf (shadda + harakat)
+diposisikan sendiri-sendiri, jadi aturan menggeser semuanya. Anchor beh/teh/noon awal dibekukan di
+`tashkil-manual.json` supaya nilai pergeseran tetap bermakna.
+
 ### Catatan tentang pengukur tabrakan
 
 `tashkil_check.py` membaca TTF hasil build, yang glyph hurufnya berupa komponen. Versi awal tidak mendekomposisi

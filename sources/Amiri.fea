@@ -29,6 +29,14 @@ languagesystem latn TRK;
 #include "stylisticsets.fea"
 #include "kerning.fea"
 
+#ifndef QURAN
+# The generated `mark` lookups go here, so that the context rules below run after them.
+feature mark {
+    # Automatic Code
+} mark;
+#include "tashkil_context.fea"
+#endif
+
 #ifdef QURAN
 #include "post_mark.fea"
 #endif

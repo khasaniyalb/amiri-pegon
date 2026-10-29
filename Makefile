@@ -30,7 +30,8 @@ all: ttf
 ttf: $(TTF)
 doc: $(HTML)
 
-$(BUILDDIR)/$(NAME).designspace: $(SRC)/$(NAME).glyphspackage
+GLYPHSFILES=$(wildcard $(SRC)/$(NAME).glyphspackage/*.plist $(SRC)/$(NAME).glyphspackage/glyphs/*.glyph)
+$(BUILDDIR)/$(NAME).designspace: $(SRC)/$(NAME).glyphspackage $(GLYPHSFILES)
 	@echo "   UFO	$@"
 	@glyphs2ufo --minimal --generate-GDEF --output-dir=$(BUILDDIR) $<
 

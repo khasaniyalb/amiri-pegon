@@ -115,11 +115,20 @@ di `Amiri.fea`, sehingga bekerja pada posisi tanda yang sudah final:
 - teh/noon awal sebelum kaf tengah: tanda dinaikkan sampai setinggi tanda theh (di atas ujung goresan kaf);
 - beh awal sebelum kaf tengah: tanda diturunkan ke bawah ujung goresan kaf, seperti yeh;
 - hah/jim/kha setelah `lam-ar.init.LamHaaInit`: tanda digeser ke kanan;
-- meem setelah lam sebelum yeh akhir: kasra diturunkan ke bawah lengkung yeh.
+- meem setelah lam sebelum yeh akhir: kasra diturunkan ke bawah lengkung yeh;
+- meem setelah lam sebelum alif akhir: tanda dinaikkan ke atas ujung batang lam dan alif;
+- huruf sesudah fa + hah/jim/kha (bentuk tengah): tanda digeser ke kiri agar membentuk tangga diagonal dan tidak
+  bertumpuk dengan tanda hah/jim/kha; damma/dammatan milik hah/jim/kha ikut naik dan bergeser sedikit ke kanan.
 
 Nilai pergeserannya ada di `SHIFTS` pada skrip. Tanda yang menumpuk pada satu huruf (shadda + harakat)
 diposisikan sendiri-sendiri, jadi aturan menggeser semuanya. Anchor beh/teh/noon awal dibekukan di
 `tashkil-manual.json` supaya nilai pergeseran tetap bermakna.
+
+### Hamzah di إ
+
+Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 80%, dengan cara yang sama seperti hamzah أ:
+skala 0,8 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
+tidak berubah. `alefWavyhamzabelow-ar*` (huruf lain) tidak diubah.
 
 ### Catatan tentang pengukur tabrakan
 

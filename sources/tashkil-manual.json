@@ -52,6 +52,22 @@
   "alef-ar": {
    "dyA": 0,
    "dyB": 0
+  },
+  "noon-ar.medi.SenBaaMemInit": {
+   "dxA": -280,
+   "dyA": 222
+  },
+  "teh-ar.medi.SenBaaMemInit": {
+   "dxA": -282,
+   "dyA": 244
+  },
+  "theh-ar.medi.SenBaaMemInit": {
+   "dxA": -281,
+   "dyA": 348
+  },
+  "meem-ar.medi.SenBaaMemInit": {
+   "dxA": -260,
+   "dyA": 110
   }
  },
  "Bold": {
@@ -107,6 +123,22 @@
   "alef-ar": {
    "dyA": 0,
    "dyB": 0
+  },
+  "noon-ar.medi.SenBaaMemInit": {
+   "dxA": -279,
+   "dyA": 229
+  },
+  "teh-ar.medi.SenBaaMemInit": {
+   "dxA": -281,
+   "dyA": 251
+  },
+  "theh-ar.medi.SenBaaMemInit": {
+   "dxA": -280,
+   "dyA": 363
+  },
+  "meem-ar.medi.SenBaaMemInit": {
+   "dxA": -260,
+   "dyA": 110
   }
  }
 }

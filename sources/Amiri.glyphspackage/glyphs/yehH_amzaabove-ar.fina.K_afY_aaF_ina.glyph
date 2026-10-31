@@ -22,7 +22,7 @@ name = aYaa.fina.KafYaaFina;
 },
 {
 name = "hamza.above";
-transform = "{0.8, 0, 0, 0.8, 145, -126.8}";
+transform = "{0.7, 0, 0, 0.7, 145, -84.2}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -49,7 +49,7 @@ name = aYaa.fina.KafYaaFina;
 },
 {
 name = "hamza.above";
-transform = "{0.8, 0, 0, 0.8, 145, -128.2}";
+transform = "{0.7, 0, 0, 0.7, 145, -86.3}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";

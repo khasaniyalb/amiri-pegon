@@ -23,7 +23,7 @@ transform = "{1, 0, 0, 1, 101, 0}";
 },
 {
 name = "hamza.above";
-transform = "{0.8, 0, 0, 0.8, 150, 417.2}";
+transform = "{0.7, 0, 0, 0.7, 150, 459.8}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -51,7 +51,7 @@ transform = "{1, 0, 0, 1, 101, 0}";
 },
 {
 name = "hamza.above";
-transform = "{0.8, 0, 0, 0.8, 150, 415.8}";
+transform = "{0.7, 0, 0, 0.7, 150, 457.7}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";

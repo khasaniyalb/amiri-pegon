@@ -1,12 +1,12 @@
-# Amiri Pegon: shrink tashkil glyphs (80%, maddah 60%).
+# Amiri Pegon: shrink tashkil glyphs (70%, maddah 50%).
 import re
 from fontTools.pens.recordingPen import DecomposingRecordingPen
 from fontTools.pens.transformPen import TransformPen
 
 BASES = ["fatha", "damma", "kasra", "fathatan", "dammatan", "kasratan",
          "shadda", "sukun", "openfathatan", "opendammatan", "openkasratan"]
-SCALE = 0.8
-MADDA = 0.6
+SCALE = 0.7
+MADDA = 0.5
 PIVOTS = ["_TashkilAbove", "_TashkilBelow", "_TashkilTashkilAbove",
           "_TashkilTashkilBelow", "_MarkAbove", "_MarkBelow"]
 

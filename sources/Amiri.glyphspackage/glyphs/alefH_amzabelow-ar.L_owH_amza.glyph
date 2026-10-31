@@ -14,7 +14,7 @@ name = aAlf.isol;
 },
 {
 name = "hamzabelow-ar";
-transform = "{0.8, 0, 0, 0.8, 160, -97.9}";
+transform = "{0.7, 0, 0, 0.7, 160, -122.35}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -33,7 +33,7 @@ name = aAlf.isol;
 },
 {
 name = "hamzabelow-ar";
-transform = "{0.8, 0, 0, 0.8, 160, -96.5}";
+transform = "{0.7, 0, 0, 0.7, 160, -120.25}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";

@@ -18,7 +18,7 @@ name = aBaa.medi.BaaBaaMemInit;
 },
 {
 name = "hamza.above";
-transform = "{0.8, 0, 0, 0.8, -31, 172.2}";
+transform = "{0.7, 0, 0, 0.7, -31, 214.8}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -41,7 +41,7 @@ name = aBaa.medi.BaaBaaMemInit;
 },
 {
 name = "hamza.above";
-transform = "{0.8, 0, 0, 0.8, -31, 170.8}";
+transform = "{0.7, 0, 0, 0.7, -31, 212.7}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";

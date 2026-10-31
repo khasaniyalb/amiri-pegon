@@ -22,8 +22,8 @@ Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri 
 `لخ`, `لخخ`, `لخخا`, `لخمم`. Fa + kha tidak berubah.
 
 ### 3. Tashkil
-- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 80%.
-- Madda (U+0653) diperkecil menjadi 60%.
+- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 70%.
+- Madda (U+0653) diperkecil menjadi 50%.
 - Titik tumpu pengecilan adalah anchor tempel, sehingga posisi tempel pada huruf tetap.
 - Madda di dalam آ dan komponen U+FDFD tidak diubah.
 
@@ -126,8 +126,8 @@ diposisikan sendiri-sendiri, jadi aturan menggeser semuanya. Anchor beh/teh/noon
 
 ### Hamzah di إ
 
-Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 80%, dengan cara yang sama seperti hamzah أ:
-skala 0,8 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
+Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 70%, dengan cara yang sama seperti hamzah أ:
+skala 0,7 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
 tidak berubah. `alefWavyhamzabelow-ar*` (huruf lain) tidak diubah.
 
 ### Catatan tentang pengukur tabrakan

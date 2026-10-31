@@ -19,11 +19,11 @@ position = "{148, -327}";
 components = (
 {
 name = "noonabove-ar";
-transform = "{0.8, 0, 0, 0.8, 29.6, -1303.8}";
+transform = "{0.7, 0, 0, 0.7, 44.4, -1181.7}";
 },
 {
 name = "kasrasmall-ar";
-transform = "{0.8, 0, 0, 0.8, -62.4, -411}";
+transform = "{0.7, 0, 0, 0.7, -36.1, -400.5}";
 }
 );
 layerId = "7FE84AD5-D318-40C5-A81A-3CDC73FF77D2";
@@ -47,11 +47,11 @@ position = "{142, -327}";
 components = (
 {
 name = "noonabove-ar";
-transform = "{0.8, 0, 0, 0.8, 28.4, -1309.4}";
+transform = "{0.7, 0, 0, 0.7, 42.6, -1186.6}";
 },
 {
 name = "kasrasmall-ar";
-transform = "{0.8, 0, 0, 0.8, -63.6, -427}";
+transform = "{0.7, 0, 0, 0.7, -37.9, -414.5}";
 }
 );
 layerId = "037FF2D3-C03F-44B0-90AB-89AFD43EFA27";

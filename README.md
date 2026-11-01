@@ -22,8 +22,8 @@ Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri 
 `لخ`, `لخخ`, `لخخا`, `لخمم`. Fa + kha tidak berubah.
 
 ### 3. Tashkil
-- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 70%.
-- Madda (U+0653) diperkecil menjadi 50%.
+- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 75%.
+- Madda (U+0653) diperkecil menjadi 60%.
 - Titik tumpu pengecilan adalah anchor tempel, sehingga posisi tempel pada huruf tetap.
 - Madda di dalam آ dan komponen U+FDFD tidak diubah.
 
@@ -126,8 +126,8 @@ diposisikan sendiri-sendiri, jadi aturan menggeser semuanya. Anchor beh/teh/noon
 
 ### Hamzah di إ
 
-Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 70%, dengan cara yang sama seperti hamzah أ:
-skala 0,7 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
+Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 75%, dengan cara yang sama seperti hamzah أ:
+skala 0,75 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
 tidak berubah. `alefWavyhamzabelow-ar*` (huruf lain) tidak diubah.
 
 ### Catatan tentang pengukur tabrakan
@@ -170,3 +170,17 @@ sh scripts/make-weights.sh
 
 Hasilnya `fonts/AmiriPegon-Medium.ttf` dan `fonts/AmiriPegon-SemiBold.ttf`. ExtraBold tidak
 tersedia karena membutuhkan ekstrapolasi di luar Bold, yang membuat jarak titik terlalu sempit.
+
+## Pembatalan ligatur saat ada harakat
+
+Daftar pola ada di `sources/batal-ligatur.txt` (satu pola per baris, format dijelaskan di dalam file).
+Bila ada harakat di dalam pola, font menyisipkan ZWJ tak terlihat di titik `|`, sehingga ligatur yang
+mengharuskan huruf-hurufnya berdekatan tidak terbentuk. Teks tanpa harakat tidak berubah.
+
+Contoh baris: `م ح | م +`
+- `|` : tempat ZWJ disisipkan (setelah harakat huruf di kirinya)
+- `+` : hanya bila pola disambung ke huruf berikutnya (`-` : hanya bila tidak disambung; tanpa tanda: keduanya)
+- `[ح ج خ]` : beberapa pilihan huruf pada satu posisi
+
+Setelah mengubah daftar, jalankan `make` (berkas `sources/batal_ligatur.fea` dibangkitkan otomatis oleh
+`scripts/make-batal-ligatur.py`), lalu `sh scripts/make-weights.sh`.

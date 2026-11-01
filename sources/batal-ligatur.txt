@@ -1,0 +1,26 @@
+# Daftar ligatur yang dibatalkan bila ada harakat di dalamnya.
+#
+# Setiap baris adalah satu pola huruf, dipisah spasi. Contoh:
+#
+#   م ح | م +
+#
+#   huruf          satu huruf, mis. م   (boleh beberapa pilihan: [ح ج خ])
+#   |              di sini font menyisipkan ZWJ tak terlihat (setelah harakat huruf di kirinya)
+#   +  (akhir)     hanya bila pola itu disambung ke huruf sesudahnya
+#   -  (akhir)     hanya bila pola itu TIDAK disambung ke huruf sesudahnya
+#   tanpa tanda    dalam kedua keadaan
+#
+# Pembatalan hanya terjadi bila ada minimal satu harakat di antara huruf-huruf pola.
+# Teks tanpa harakat tidak berubah. Label sebelum titik dua (mis. "محم + :") boleh ditulis
+# dan diabaikan. Baris yang diawali # adalah komentar.
+#
+# Setelah mengubah berkas ini, jalankan:
+#   make VERSION=1.001        (aturan dibangkitkan ulang otomatis)
+#   sh scripts/make-weights.sh
+
+محم + : م ح | م +
+مجم + : م ج | م +
+مخم + : م خ | م +
+لحم + : ل ح | م +
+لجم + : ل ج | م +
+لخم + : ل خ | م +

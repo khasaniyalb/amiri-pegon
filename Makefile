@@ -23,6 +23,10 @@ TTF=$(FONTS:%=${FONTSDIR}/%.ttf)
 HTML=$(DOC)/Documentation-Arabic.html
 FEA=$(wildcard $(SRC)/*.fea)
 
+$(SRC)/batal_ligatur.fea: $(SRC)/batal-ligatur.txt $(SCRIPTSDIR)/make-batal-ligatur.py $(SRC)/basic.fea
+	@echo "   FEA\t$@"
+	@$(PY) $(SCRIPTSDIR)/make-batal-ligatur.py
+
 export SOURCE_DATE_EPOCH ?= 0
 
 all: ttf

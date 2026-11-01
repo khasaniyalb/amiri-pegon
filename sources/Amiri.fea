@@ -26,6 +26,11 @@ languagesystem latn TRK;
 
 #include "lellah.fea"
 #include "contextuals.fea"
+
+#ifndef QURAN
+#include "batal_ligatur.fea"
+#endif
+
 #include "stylisticsets.fea"
 #include "kerning.fea"
 

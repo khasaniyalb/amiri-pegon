@@ -2,7 +2,7 @@
 """Writes sources/batal_ligatur.fea from sources/batal-ligatur.txt.
 
 For every listed pattern, when at least one mark (harakat) sits inside the letter sequence,
-an invisible ZWJ glyph is inserted at the marked position ("|") early in `ccmp`. The ZWJ glyph
+an invisible zero-width blocker glyph (zerowidthspace) is inserted at the marked position ("|") early in `ccmp`. The ZWJ glyph
 sits between the two letters, so the contextual ligature rules that need the letters to be
 adjacent no longer match; the joining forms are unchanged (same result as typing a real ZWJ).
 """
@@ -12,7 +12,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 SRC = os.path.join(ROOT, "sources")
 GLYPHS = os.path.join(SRC, "Amiri.glyphspackage", "glyphs")
 MAXMARKS = 2            # marks allowed after each letter of a pattern
-ZWJ = "zerowidthjoiner"
+ZWJ = "zerowidthspace"   # empty, zero-width, not a mark (the real ZWJ glyph has a visible outline)
 
 
 def read_glyph_map():

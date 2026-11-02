@@ -16,6 +16,17 @@
    "dxA": 0,
    "dyA": -12
   },
+  "thal-ar": {
+   "dxA": 25
+  },
+  "alef-ar": {
+   "dyA": 0,
+   "dyB": 0
+  },
+  "meem-ar.medi.SenBaaMemInit": {
+   "dxA": -260,
+   "dyA": 110
+  },
   "beh-ar.init": {
    "dxA": 35,
    "dyA": 120,
@@ -40,18 +51,11 @@
   "heh-ar.medi.BaaHehMedi": {
    "dxA": 50
   },
-  "thal-ar": {
-   "dxA": 25
-  },
   "yeh-ar.init.Wide": {
    "dxA": 0
   },
   "yeh-ar.medi": {
    "dxA": 25
-  },
-  "alef-ar": {
-   "dyA": 0,
-   "dyB": 0
   },
   "noon-ar.medi.SenBaaMemInit": {
    "dxA": -280,
@@ -64,10 +68,6 @@
   "theh-ar.medi.SenBaaMemInit": {
    "dxA": -281,
    "dyA": 348
-  },
-  "meem-ar.medi.SenBaaMemInit": {
-   "dxA": -260,
-   "dyA": 110
   }
  },
  "Bold": {
@@ -86,6 +86,17 @@
   "re:^(beh|teh|theh|noon)-ar\\.medi$": {
    "dxA": 0,
    "dyA": -12
+  },
+  "thal-ar": {
+   "dxA": 25
+  },
+  "alef-ar": {
+   "dyA": 0,
+   "dyB": 0
+  },
+  "meem-ar.medi.SenBaaMemInit": {
+   "dxA": -260,
+   "dyA": 110
   },
   "beh-ar.init": {
    "dxA": 60,
@@ -111,18 +122,11 @@
   "heh-ar.medi.BaaHehMedi": {
    "dxA": 0
   },
-  "thal-ar": {
-   "dxA": 25
-  },
   "yeh-ar.init.Wide": {
    "dxA": 25
   },
   "yeh-ar.medi": {
    "dxA": 50
-  },
-  "alef-ar": {
-   "dyA": 0,
-   "dyB": 0
   },
   "noon-ar.medi.SenBaaMemInit": {
    "dxA": -279,
@@ -135,10 +139,6 @@
   "theh-ar.medi.SenBaaMemInit": {
    "dxA": -280,
    "dyA": 363
-  },
-  "meem-ar.medi.SenBaaMemInit": {
-   "dxA": -260,
-   "dyA": 110
   }
  }
 }

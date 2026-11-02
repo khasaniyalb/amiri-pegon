@@ -1,0 +1,99 @@
+# POSISI TASHKIL - satu tempat untuk semua pengaturan manual.
+#
+# Posisi dasar tanda dihitung otomatis oleh scripts/tashkil_anchors.py. Berkas ini hanya berisi
+# koreksi Anda. Setelah mengubahnya, cukup jalankan `make` (berkas .json dan .fea dibangkitkan
+# otomatis), lalu `sh scripts/make-weights.sh`.
+#
+# Satuan: unit font (1 em = 1000). x positif = ke kanan, y positif = ke atas.
+#
+# ============================================================================================
+# BAGIAN 1 - [Bentuk]: koreksi untuk satu bentuk huruf, di mana pun bentuk itu muncul.
+#   Nilai di sini MENGGANTIKAN (bukan menambah) posisi otomatis.
+#   Bagian: [Bentuk] = Regular dan Bold, [Bentuk Regular] / [Bentuk Bold] = hanya master itu
+#   (nilai di bagian master menimpa nilai di [Bentuk]).
+#
+#   Penulisan bentuk huruf:
+#     beh-ar.init            nama glyph persis
+#     ب:awal                 huruf + posisi (awal / tengah / akhir / sendiri) = bentuk polosnya
+#     ب:awal*                huruf + posisi + semua varian kontekstualnya
+#     re:^meem.*\.medi$      ekspresi reguler atas nama glyph (untuk yang mahir)
+#   Penulisan nilai:   atas x=35 y=120   bawah x=25 y=0     (boleh hanya x atau hanya y)
+#   Tidak tahu nama glyph-nya? jalankan: python3 scripts/nama-bentuk.py "كلمة"
+#
+# ============================================================================================
+# BAGIAN 2 - [Kelompok]: nama untuk sekumpulan glyph, dipakai di aturan [Konteks].
+#   NAMA = re:<ekspresi reguler>        (atas nama glyph)
+#   NAMA = glyph1 glyph2 ...
+#   NAMA = re:... - TANDA               (kurangi dengan kelompok lain)
+#   Kelompok bawaan: ATAS, BAWAH, TANDA (semua tanda).
+#
+# ============================================================================================
+# BAGIAN 3 - [Konteks]: tanda sebuah huruf bergeser bila huruf tertentu ada di sebelahnya.
+#   pola => sisi dx dy
+#   - Pola = huruf/bentuk dipisah spasi, urut dari kanan ke kiri (urutan mengetik).
+#     Satu token diberi * : tanda yang menempel pada huruf itulah yang digeser.
+#   - Token boleh berupa:  nama glyph | <KELOMPOK> | huruf Arab | [beberapa huruf]
+#     Huruf Arab boleh diikuti posisi: ^ = awal kata, ~ = tengah, $ = akhir ; tanpa tanda = semua bentuk
+#   - sisi = atas | bawah | [damma-ar dammatan-ar] (hanya tanda tertentu)
+#   - Geseran DITAMBAHKAN pada posisi tanda saat itu (setelah bagian [Bentuk]).
+#   Contoh:   ت^* ك~ => atas 0 314    (teh awal diikuti kaf tengah: tanda atas naik 314)
+#
+
+[Bentuk]
+re:^meem.*-ar\.medi\.KafMemMedi$                      atas x=-24 y=126
+re:^meem.*-ar\.medi\.KafMemAlf$                       atas x=0 y=66
+re:^[^a].*-ar\.medi\.(MemHaaMemInit|BaaHaaMemInit)$   atas x=-30 y=18
+re:^(beh|teh|theh|noon)-ar\.medi$                     atas x=0 y=-12
+thal-ar                                               atas x=25
+alef-ar                                               atas y=0  bawah y=0
+meem-ar.medi.SenBaaMemInit                            atas x=-260 y=110
+
+[Bentuk Regular]
+beh-ar.init                                           atas x=35 y=120  bawah x=25 y=0
+teh-ar.init                                           atas x=60 y=-40  bawah x=15 y=-160
+noon-ar.init                                          atas x=35 y=0  bawah x=-25 y=-160
+heh-ar.init                                           atas y=-35
+heh-ar.medi.BaaHehMedi                                atas x=50
+yeh-ar.init.Wide                                      atas x=0
+yeh-ar.medi                                           atas x=25
+noon-ar.medi.SenBaaMemInit                            atas x=-280 y=222
+teh-ar.medi.SenBaaMemInit                             atas x=-282 y=244
+theh-ar.medi.SenBaaMemInit                            atas x=-281 y=348
+
+[Bentuk Bold]
+beh-ar.init                                           atas x=60 y=160  bawah x=50 y=0
+teh-ar.init                                           atas x=50 y=20  bawah x=25 y=-140
+noon-ar.init                                          atas x=60 y=-60  bawah x=0 y=80
+heh-ar.init                                           atas y=5
+heh-ar.medi.BaaHehMedi                                atas x=0
+yeh-ar.init.Wide                                      atas x=25
+yeh-ar.medi                                           atas x=50
+noon-ar.medi.SenBaaMemInit                            atas x=-279 y=229
+teh-ar.medi.SenBaaMemInit                             atas x=-281 y=251
+theh-ar.medi.SenBaaMemInit                            atas x=-280 y=363
+
+[Kelompok]
+KAF  = re:^(kaf|keheh|gaf|kafD_otbelow|kafDotbelow|ng)[^.]*-ar\.medi(\.|$)
+HAH  = re:^[^a][^.]*-ar\.fina\.AboveHaaIsol2(\..*)?$
+YEH  = re:^(yeh|alefMaksura|yehFarsi|yehbarree)[^.]*-ar\.fina$
+ALEF = alef-ar.fina
+FFOL = re:^[^a][^.]*-ar\.medi\.FaaHaaInit(\..*)?$
+NEXT = re:^[^a][^.]*-ar\.(medi|fina)(\..*)?$ - TANDA
+
+[Konteks]
+# teh awal sebelum kaf: tanda atas naik, di atas ujung goresan kaf (seperti theh)
+teh-ar.init* <KAF> => atas 0 314
+# noon awal sebelum kaf: setinggi theh
+noon-ar.init* <KAF> => atas 0 247
+# beh awal sebelum kaf: tanda atas turun, masuk di bawah ujung goresan kaf
+beh-ar.init* <KAF> => atas 0 -190
+# ha/jim/kha (akhir kata) sesudah lam awal: tanda atas geser ke kanan, di atas badan ha
+lam-ar.init.LamHaaInit <HAH>* => atas 140 0
+# meem tengah (sesudah lam) sebelum ya/alif maksura akhir: kasra turun ke bawah lekuk ya
+[meem-ar.medi.LamMemInit meem-ar.medi.LamMemInitTatweel]* <YEH> => bawah 0 -140
+# meem tengah (sesudah lam) sebelum alif akhir: tanda naik, di atas ujung kedua tiang
+meem-ar.medi.LamMemInit* <ALEF> => atas 0 160
+# huruf sesudah fa + ha/jim/kha (masih ada huruf lagi): tanda atas geser ke kiri
+<FFOL> <NEXT>* => atas -100 0
+# damma/dammatan pada ha/jim/kha itu: sedikit ke kanan-atas agar tidak menabrak titik huruf berikutnya
+<FFOL>* <NEXT> => [damma-ar dammatan-ar] 30 60

@@ -23,6 +23,15 @@ TTF=$(FONTS:%=${FONTSDIR}/%.ttf)
 HTML=$(DOC)/Documentation-Arabic.html
 FEA=$(wildcard $(SRC)/*.fea)
 
+# tashkil positions: one editable file -> generated .json (anchor corrections) and .fea (context shifts)
+$(SRC)/tashkil-manual.json: $(SRC)/tashkil-posisi.txt $(SCRIPTSDIR)/make-tashkil-posisi.py
+	@echo "   TKP\t$@"
+	@$(PY) $(SCRIPTSDIR)/make-tashkil-posisi.py manual
+
+$(SRC)/tashkil_context.fea: $(SRC)/tashkil-posisi.txt $(SCRIPTSDIR)/make-tashkil-posisi.py $(BUILDDIR)/$(NAME)-Regular.ufo
+	@echo "   TKP\t$@"
+	@$(PY) $(SCRIPTSDIR)/make-tashkil-posisi.py context $(BUILDDIR)/$(NAME)-Regular.ufo
+
 $(SRC)/batal_ligatur.fea: $(SRC)/batal-ligatur.txt $(SCRIPTSDIR)/make-batal-ligatur.py $(SRC)/basic.fea
 	@echo "   FEA\t$@"
 	@$(PY) $(SCRIPTSDIR)/make-batal-ligatur.py

@@ -22,7 +22,7 @@ Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri 
 `لخ`, `لخخ`, `لخخا`, `لخمم`. Fa + kha tidak berubah.
 
 ### 3. Tashkil
-- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 75%.
+- Semua tashkil (fatha, damma, kasra, tanwin, shadda, sukun, dan varian kecilnya) diperkecil menjadi 80%.
 - Madda (U+0653) diperkecil menjadi 60%.
 - Titik tumpu pengecilan adalah anchor tempel, sehingga posisi tempel pada huruf tetap.
 - Madda di dalam آ dan komponen U+FDFD tidak diubah.
@@ -41,7 +41,7 @@ Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri 
 | `scripts/tashkil.py` (baru), `scripts/build.py` | pengecilan tashkil saat build |
 | `scripts/tashkil_anchors.py` (baru) | posisi tashkil mengikuti kontur huruf (anchor `TashkilAbove`/`TashkilBelow` dihitung ulang per glyph saat build) |
 | `scripts/tashkil_check.py` (baru) | deteksi tabrakan tashkil dan penghitung koreksi otomatis |
-| `sources/tashkil-adjust.json` (baru) | koreksi (dx/dy) per glyph hasil `tashkil_check.py`, boleh diedit manual |
+| `sources/tashkil-adjust.json` (baru) | koreksi (dx/dy) per glyph hasil `tashkil_check.py` |
 | `scripts/rename.py` (baru) | ganti nama font setelah build |
 
 ## Build
@@ -95,39 +95,45 @@ dibatasi maksimum 160 unit vertikal dan 60 unit horizontal. Pada 9.000 kata acak
 tidak dipakai untuk melatih koreksi, tanda yang berjarak < 22 unit dari huruf/tanda tetangga turun dari
 3,03% menjadi 0,42% (Regular) dan 3,89% menjadi 0,78% (Bold).
 
-### Koreksi manual dan aturan khusus konteks
+### Satu berkas untuk semua pengaturan posisi: `sources/tashkil-posisi.txt`
 
-- `sources/tashkil-manual.json` memuat koreksi hasil pilihan manual ({master: {glyph atau `re:<regex>`: {dxA, dyA, dxB, dyB}}}).
-  Nilainya *menggantikan* koreksi otomatis dan tidak disentuh `tashkil_check.py`. Isinya saat ini: meem di ligatur
-  kaf+meem (`KafMemMedi`, `KafMemAlf`), ha/jim di tengah (`MemHaaMemInit`, `BaaHaaMemInit`), dan ب ت ث ن bentuk tengah.
+Semua koreksi manual posisi tashkil ada di satu berkas teks yang mudah dibaca. Isinya tiga bagian
+(penjelasan lengkap ada di bagian atas berkas itu):
+
+- `[Bentuk]` : koreksi untuk satu bentuk huruf di mana pun muncul (menggantikan posisi otomatis). Menggantikan
+  `tashkil-manual.json` yang sebelumnya diedit tangan.
+- `[Kelompok]` : nama untuk sekumpulan glyph, dipakai di aturan konteks.
+- `[Konteks]` : tanda sebuah huruf bergeser bila huruf tertentu ada di sebelahnya, ditulis sebagai
+  `pola => sisi dx dy`, mis. `ت^* ك~ => atas 0 314`. Menggantikan `make-tashkil-context.py`.
+
+Setelah mengubah berkas itu, cukup `make` (dua berkas turunan dibangkitkan otomatis oleh
+`scripts/make-tashkil-posisi.py`: `sources/tashkil-manual.json` dan `sources/tashkil_context.fea`; jangan diedit
+tangan), lalu `sh scripts/make-weights.sh`. Untuk melihat nama bentuk huruf pada suatu kata:
+`python3 scripts/nama-bentuk.py "مُحَمَّد"` (butuh `pip install uharfbuzz`).
+
+Hal yang tetap ditangani mesin `tashkil_anchors.py`:
 - Fa/qaf awal sebelum jim/ha/kha (`init.FaaHaaInit`): tanda diletakkan tepat di atas kepala dan titik fa; tanda huruf
   sesudahnya (`fina.AboveHaaIsol2`, `medi.FaaHaaInit`) dihitung sejajar secara diagonal di kiri-bawah tanda fa (`FEH_*` di `P`).
 - Bentuk tengah sebelum yeh akhir/bari (nama konteks memuat `Yaa`/`Bari`): anchor bawah asli Amiri dipertahankan
   bila lebih dalam, supaya kasra tidak tertutup lengkung yeh.
 
-### Aturan kontekstual (`sources/tashkil_context.fea`)
+Aturan konteks bawaan (delapan aturan) dan maksudnya:
 
-Beberapa koreksi tidak bisa dinyatakan lewat anchor, karena glyph yang sama dipakai di samping banyak huruf
-berbeda. Aturan GPOS kontekstual ini dibuat oleh `scripts/make-tashkil-context.py` (jalankan ulang setelah build
-bila daftar glyph berubah) dan disisipkan sesudah lookup `mark` otomatis lewat penanda `# Automatic Code`
-di `Amiri.fea`, sehingga bekerja pada posisi tanda yang sudah final:
-
-- teh/noon awal sebelum kaf tengah: tanda dinaikkan sampai setinggi tanda theh (di atas ujung goresan kaf);
-- beh awal sebelum kaf tengah: tanda diturunkan ke bawah ujung goresan kaf, seperti yeh;
-- hah/jim/kha setelah `lam-ar.init.LamHaaInit`: tanda digeser ke kanan;
+- teh/noon awal sebelum kaf tengah: tanda atas dinaikkan sampai setinggi tanda theh (di atas ujung goresan kaf);
+- beh awal sebelum kaf tengah: tanda atas diturunkan ke bawah ujung goresan kaf, seperti yeh;
+- ha/jim/kha di akhir kata sesudah `lam-ar.init.LamHaaInit`: tanda digeser ke kanan;
 - meem setelah lam sebelum yeh akhir: kasra diturunkan ke bawah lengkung yeh;
 - meem setelah lam sebelum alif akhir: tanda dinaikkan ke atas ujung batang lam dan alif;
 - huruf sesudah fa + hah/jim/kha (bentuk tengah): tanda digeser ke kiri agar membentuk tangga diagonal dan tidak
   bertumpuk dengan tanda hah/jim/kha; damma/dammatan milik hah/jim/kha ikut naik dan bergeser sedikit ke kanan.
 
-Nilai pergeserannya ada di `SHIFTS` pada skrip. Tanda yang menumpuk pada satu huruf (shadda + harakat)
-diposisikan sendiri-sendiri, jadi aturan menggeser semuanya. Anchor beh/teh/noon awal dibekukan di
-`tashkil-manual.json` supaya nilai pergeseran tetap bermakna.
+Tanda yang menumpuk pada satu huruf (shadda + harakat) diposisikan sendiri-sendiri, jadi aturan menggeser semuanya.
+Anchor beh/teh/noon awal dibekukan di bagian `[Bentuk]` supaya nilai pergeseran tetap bermakna.
 
 ### Hamzah di إ
 
-Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 75%, dengan cara yang sama seperti hamzah أ:
-skala 0,75 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
+Hamzah bawah pada `alefHamzabelow-ar*` (9 glyph) dikecilkan menjadi 80%, dengan cara yang sama seperti hamzah أ:
+skala 0,8 pada komponen `hamzabelow-ar`, titik tetapnya di puncak hamzah (sisi yang dekat alif) sehingga jarak ke alif
 tidak berubah. `alefWavyhamzabelow-ar*` (huruf lain) tidak diubah.
 
 ### Catatan tentang pengukur tabrakan

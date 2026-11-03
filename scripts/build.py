@@ -77,6 +77,8 @@ def generateFeatures(font, args):
         preprocessor.define("QURAN")
     elif args.slant:
         preprocessor.define("ITALIC")
+    # weight of this font (400 when unset); used by tashkil_context.fea to pick per-weight values
+    preprocessor.define("TW_%d" % (font.info.openTypeOS2WeightClass or 400))
     with open(args.features) as f:
         preprocessor.parse(f)
     o = StringIO()
@@ -597,9 +599,6 @@ def openFont(path, quran=False):
 
     import tashkil
     tashkil.apply(font)
-    if not quran:
-        import tashkil_anchors
-        tashkil_anchors.apply(font, "Bold" if "Bold" in (font.info.styleName or "") else "Regular")
 
     return font
 

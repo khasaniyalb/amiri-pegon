@@ -1,5 +1,8 @@
 .PHONY: all clean ttf web pack check
 
+# the generated-feature rules below must not become the default goal
+.DEFAULT_GOAL := all
+
 NAME=Amiri
 LATIN=AmiriLatin
 TAG=$(shell git describe --tags --abbrev=0)

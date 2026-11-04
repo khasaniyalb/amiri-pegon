@@ -37,6 +37,9 @@
 # Setelah mengubah berkas ini jalankan `make` (aturan dibangkitkan otomatis), lalu `sh scripts/make-weights.sh`.
 # Ingin melihat hasilnya dulu tanpa mengubah apa pun?  python3 scripts/pratinjau.py -a "baris Anda" "kata contoh"
 
+ا$ => atas 0 0  bawah 0 0
+ا_ => atas 0 0  bawah 0 0
+
 ب^ => atas 0 -300
 ب~ => atas -50 -300
 ب$ => atas 0 -400
@@ -52,13 +55,165 @@
 ث$ => atas 0 -150
 ث_ => atas 0 -150
 
-م^ => atas 0 -400
-م~ => atas 0 -400
-م$ => atas 0 -400
-م_ => atas 0 -400
+ب^ => atas 0 -300  bawah 0 0
+ب~ => atas 0 -300  bawah 0 0
+ب$ => atas 0 -400  bawah 0 0
+ب_ => atas 0 -400  bawah 0 0
 
+ت^ => atas 0 -200  bawah 0 0
+ت~ => atas 0 -200  bawah 0 0
+ت$ => atas 0 -200  bawah 0 0
+ت_ => atas 0 -200  bawah 0 0
 
+ث^ => atas 0 -100  bawah 0 0
+ث~ => atas 0 -100  bawah 0 0
+ث$ => atas 0 -100  bawah 0 0
+ث_ => atas 0 -100  bawah 0 0
 
+ج^ => atas 0 -300  bawah 0 0
+ج~ => atas 0 -300  bawah 0 0
+ج$ => atas 0 -300  bawah 0 0
+ج_ => atas 0 -300  bawah 0 0
 
+ح^ => atas 0 -300  bawah 0 0
+ح~ => atas 0 -300  bawah 0 0
+ح$ => atas 0 -300  bawah 0 0
+ح_ => atas 0 -300  bawah 0 0
+
+خ^ => atas 0 -250  bawah 0 0
+خ~ => atas 0 -250  bawah 0 0
+خ$ => atas 0 -250  bawah 0 0
+خ_ => atas 0 -250  bawah 0 0
+
+د$ => atas 0 0  bawah 0 0
+د_ => atas 0 0  bawah 0 0
+
+ذ$ => atas 0 0  bawah 0 0
+ذ_ => atas 0 0  bawah 0 0
+
+ر$ => atas 0 0  bawah 0 0
+ر_ => atas 0 0  bawah 0 0
+
+ز$ => atas 0 0  bawah 0 0
+ز_ => atas 0 0  bawah 0 0
+
+س^ => atas 0 0  bawah 0 0
+س~ => atas 0 0  bawah 0 0
+س$ => atas 0 0  bawah 0 0
+س_ => atas 0 0  bawah 0 0
+
+ش^ => atas 0 0  bawah 0 0
+ش~ => atas 0 0  bawah 0 0
+ش$ => atas 0 0  bawah 0 0
+ش_ => atas 0 0  bawah 0 0
+
+ص^ => atas 0 0  bawah 0 0
+ص~ => atas 0 0  bawah 0 0
+ص$ => atas 0 0  bawah 0 0
+ص_ => atas 0 0  bawah 0 0
+
+ض^ => atas 0 0  bawah 0 0
+ض~ => atas 0 0  bawah 0 0
+ض$ => atas 0 0  bawah 0 0
+ض_ => atas 0 0  bawah 0 0
+
+ط^ => atas 0 0  bawah 0 0
+ط~ => atas 0 0  bawah 0 0
+ط$ => atas 0 0  bawah 0 0
+ط_ => atas 0 0  bawah 0 0
+
+ظ^ => atas 0 0  bawah 0 0
+ظ~ => atas 0 0  bawah 0 0
+ظ$ => atas 0 0  bawah 0 0
+ظ_ => atas 0 0  bawah 0 0
+
+ع^ => atas 0 0  bawah 0 0
+ع~ => atas 0 0  bawah 0 0
+ع$ => atas 0 0  bawah 0 0
+ع_ => atas 0 0  bawah 0 0
+
+غ^ => atas 0 0  bawah 0 0
+غ~ => atas 0 0  bawah 0 0
+غ$ => atas 0 0  bawah 0 0
+غ_ => atas 0 0  bawah 0 0
+
+ف^ => atas 0 0  bawah 0 0
+ف~ => atas 0 0  bawah 0 0
+ف$ => atas 0 0  bawah 0 0
+ف_ => atas 0 0  bawah 0 0
+
+ق^ => atas 0 0  bawah 0 0
+ق~ => atas 0 0  bawah 0 0
+ق$ => atas 0 0  bawah 0 0
+ق_ => atas 0 0  bawah 0 0
+
+ك^ => atas 0 0  bawah 0 0
+ك~ => atas 0 0  bawah 0 0
+ك$ => atas 0 0  bawah 0 0
+ك_ => atas 0 0  bawah 0 0
+
+ل^ => atas 0 0  bawah 0 0
+ل~ => atas 0 0  bawah 0 0
+ل$ => atas 0 0  bawah 0 0
+ل_ => atas 0 0  bawah 0 0
+
+م^ => atas 0 -350  bawah 0 0
+م~ => atas 0 -350  bawah 0 0
+م$ => atas 0 -350  bawah 0 0
+م_ => atas 0 -350  bawah 0 0
+
+ن^ => atas 0 0  bawah 0 0
+ن~ => atas 0 0  bawah 0 0
+ن$ => atas 0 0  bawah 0 0
+ن_ => atas 0 0  bawah 0 0
+
+و$ => atas 0 0  bawah 0 0
+و_ => atas 0 0  bawah 0 0
+
+ه^ => atas 0 0  bawah 0 0
+ه~ => atas 0 0  bawah 0 0
+ه$ => atas 0 0  bawah 0 0
+ه_ => atas 0 0  bawah 0 0
+
+ء~ => atas 0 0  bawah 0 0
+ء_ => atas 0 0  bawah 0 0
+
+ي^ => atas 0 0  bawah 0 0
+ي~ => atas 0 0  bawah 0 0
+ي$ => atas 0 0  bawah 0 0
+ي_ => atas 0 0  bawah 0 0
+
+چ^ => atas 0 0  bawah 0 0
+چ~ => atas 0 0  bawah 0 0
+چ$ => atas 0 0  bawah 0 0
+چ_ => atas 0 0  bawah 0 0
+
+ڠ^ => atas 0 0  bawah 0 0
+ڠ~ => atas 0 0  bawah 0 0
+ڠ$ => atas 0 0  bawah 0 0
+ڠ_ => atas 0 0  bawah 0 0
+
+ڤ^ => atas 0 0  bawah 0 0
+ڤ~ => atas 0 0  bawah 0 0
+ڤ$ => atas 0 0  bawah 0 0
+ڤ_ => atas 0 0  bawah 0 0
+
+ۑ^ => atas 0 0  bawah 0 0
+ۑ~ => atas 0 0  bawah 0 0
+ۑ$ => atas 0 0  bawah 0 0
+ۑ_ => atas 0 0  bawah 0 0
+
+ࢴ^ => atas 0 0  bawah 0 0
+ࢴ~ => atas 0 0  bawah 0 0
+ࢴ$ => atas 0 0  bawah 0 0
+ࢴ_ => atas 0 0  bawah 0 0
+
+ࢋ^ => atas 0 0  bawah 0 0
+ࢋ~ => atas 0 0  bawah 0 0
+ࢋ$ => atas 0 0  bawah 0 0
+ࢋ_ => atas 0 0  bawah 0 0
+
+ڊ$ => atas 0 0  bawah 0 0
+ڊ_ => atas 0 0  bawah 0 0
 
 ت ب~* ن => atas 0 -300

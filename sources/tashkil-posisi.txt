@@ -37,6 +37,8 @@
 # Setelah mengubah berkas ini jalankan `make` (aturan dibangkitkan otomatis), lalu `sh scripts/make-weights.sh`.
 # Ingin melihat hasilnya dulu tanpa mengubah apa pun?  python3 scripts/pratinjau.py -a "baris Anda" "kata contoh"
 
+# BENTUK DASAR (INIT,MEDI,FINA,ISOL)
+
 ا$ => atas 0 0  bawah 0 0
 ا_ => atas 0 0  bawah 0 0
 
@@ -216,6 +218,8 @@
 
 ڊ$ => atas 70 -200  bawah 0 25
 ڊ_ => atas 0 -300  bawah 0 25
+
+# BENTUK KONTEKSTUAL
 
 ت ب~* ن => atas 0 -300
 

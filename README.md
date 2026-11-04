@@ -26,6 +26,8 @@ Pada ligatur lam + kha, titik kha berada di sisi kiri batang lam (tidak di kiri 
 - Madda (U+0653) diperkecil menjadi 60%.
 - Titik tumpu pengecilan adalah anchor tempel, sehingga posisi tempel pada huruf tetap.
 - Madda di dalam آ ikut mengecil (60%); komponen U+FDFD tidak diubah.
+- Alef di atas (U+0670, `alefabove-ar` dan bentuk `.isol`/`.medi`-nya) diperkecil menjadi 80%. Glyph huruf yang memuat alef di atas
+  sebagai bagian bentuknya (mis. ligatur Allah, bismillah) dan alef di bawah (U+0656) tidak diubah.
 
 ## File yang berubah dari Amiri asli
 
@@ -93,7 +95,12 @@ huruf => atas dx dy  bawah dx dy  | Bold atas dx dy  bawah dx dy
   dalam 1/1000 tinggi huruf, relatif terhadap posisi asli.
 - Bagian `| Bold ...` bersifat opsional. Tanpa itu Bold memakai angka yang sama. Medium dan SemiBold otomatis berada di
   antara Regular dan Bold.
-- Bila beberapa baris cocok pada tanda yang sama, baris yang paling spesifik (huruf paling banyak) yang dipakai.
+- Bila beberapa baris cocok pada tanda yang sama, baris yang paling spesifik (huruf paling banyak) yang dipakai; untuk jumlah
+  huruf sama, baris yang lebih dulu di berkas. Tulis aturan khusus lebih dulu, yang umum sesudahnya.
+- **Tanda tertentu**: sebagai ganti `atas`/`bawah` boleh ditulis nama tandanya: `fatha`, `damma`, `kasra`, `fathatan`,
+  `dammatan`, `kasratan`, `shadda`, `sukun`, `madda`, `alef` (alef di atas, U+0670). Satu nama mencakup bentuk turunannya
+  (mis. `fatha-ar.small`). Contoh: `ب => madda 0 40  alef 15 25` atau `ر => madda 0 40 | Bold madda 0 70`.
+- **Huruf apa pun**: tulis `*` sebagai pola, mis. `* => alef 0 5` (alef di atas pada semua huruf yang belum diatur baris lain).
 
 Contoh: `ت ك => atas 0 314` (tanda atas ت yang diikuti ك naik 314), `ل ح* => atas 140 0` (tanda atas ح setelah ل
 bergeser ke kanan 140), `ب^ => bawah 0 -30 | Bold bawah 0 -40`.

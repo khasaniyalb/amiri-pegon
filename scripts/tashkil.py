@@ -7,6 +7,7 @@ BASES = ["fatha", "damma", "kasra", "fathatan", "dammatan", "kasratan",
          "shadda", "sukun", "openfathatan", "opendammatan", "openkasratan"]
 SCALE = 0.8
 MADDA = 0.6
+ALEF = 0.8          # superscript alef (U+0670, alefabove-ar and its .isol/.medi variants)
 PIVOTS = ["_TashkilAbove", "_TashkilBelow", "_TashkilTashkilAbove",
           "_TashkilTashkilBelow", "_MarkAbove", "_MarkBelow"]
 
@@ -21,6 +22,8 @@ def targets(font):
             out[name] = SCALE
         elif m.group(1) == "madda":
             out[name] = MADDA
+        elif m.group(1) == "alefabove":
+            out[name] = ALEF
     return out
 
 

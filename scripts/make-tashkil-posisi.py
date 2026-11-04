@@ -17,6 +17,11 @@ OUT = os.environ.get("TP_OUT", os.path.join(SRC, "tashkil_context.fea"))
 GLYPHS = os.path.join(SRC, "Amiri.glyphspackage", "glyphs")
 REMOVE_GLYPHS = "com.schriftgestaltung.customParameter.GSFontMaster.Remove Glyphs"
 WEIGHTS = (400, 500, 600, 700)
+# names usable instead of atas/bawah: one name covers the mark and its variants (e.g. fatha-ar.small)
+MARKNAMES = {
+    "fatha": "fatha", "damma": "damma", "kasra": "kasra", "fathatan": "fathatan", "dammatan": "dammatan",
+    "kasratan": "kasratan", "shadda": "shadda", "sukun": "sukun", "madda": "madda", "alef": "alefabove",
+}
 
 
 def die(msg, n=None):
@@ -57,8 +62,8 @@ def parse_values(text, n, what):
     toks = text.split()
     i = 0
     while i < len(toks):
-        if toks[i] not in ("atas", "bawah"):
-            die("%s: tulis 'atas dx dy' dan/atau 'bawah dx dy' (bukan %r)" % (what, toks[i]), n)
+        if toks[i] not in ("atas", "bawah") and toks[i] not in MARKNAMES:
+            die("%s: tulis atas / bawah / nama tanda (%s) lalu dx dy (bukan %r)" % (what, " ".join(MARKNAMES), toks[i]), n)
         side = toks[i]
         try:
             vals[side] = (int(toks[i + 1]), int(toks[i + 2]))
@@ -82,7 +87,9 @@ def parse_line(line, n):
         if not b.lower().startswith("bold"):
             die("sesudah | tulis: Bold atas dx dy", n)
         bold = parse_values(b[4:], n, "nilai Bold")
-    toks = re.findall(r"\[[^\]]+\][\^~$]?\*?|[^\s\[\]]+", pat.strip())
+    if pat.strip() == "*":
+        return [(None, "")], 0, reg, bold
+    toks = re.findall(r"\[[^\]]+\][\^~$_]?\*?|[^\s\[\]]+", pat.strip())
     slots, target = [], None
     for t in toks:
         star = t.endswith("*")
@@ -140,8 +147,20 @@ def main():
         print("tashkil_context.fea: 0 aturan (posisi asli Amiri)")
         return
     names, ta, tb = glyph_universe(ufo)
+    bold_ufo = ufo.replace("Regular", "Bold")
+    if bold_ufo != ufo and os.path.exists(bold_ufo):          # use only glyphs that exist in BOTH masters
+        bn, _, _ = glyph_universe(bold_ufo)
+        keep = set(bn)
+        names = [x for x in names if x in keep]
+        ta = [x for x in ta if x in keep]
+        tb = [x for x in tb if x in keep]
+    mrx = {k: re.compile(r"^%s-ar(\..*)?$" % v) for k, v in MARKNAMES.items()}
+    extra = [x for x in names if x not in set(ta + tb) and any(r.match(x) for r in mrx.values())]
+    allmarks = ta + tb + extra
+    mset = set(allmarks)
     cls = lambda nm, g: L.append("@%s = [%s];" % (nm, " ".join(g)))
-    cls("TP_ABOVE", ta); cls("TP_BELOW", tb); cls("TP_ALL", ta + tb)
+    cls("TP_ABOVE", ta); cls("TP_BELOW", tb); cls("TP_ALL", allmarks)
+    cls("TP_BASE", [x for x in names if x not in mset])
     lookups = {w: [] for w in WEIGHTS}
     rules = []
     # specific (longer) patterns first: in one lookup the first matching rule wins
@@ -151,31 +170,40 @@ def main():
         classes = []
         ok = True
         for k, (letters, mark) in enumerate(slots):
-            g = letter_class(letters, mark, names, cmap, n)
+            g = [x for x in names if x not in mset] if letters is None else letter_class(letters, mark, names, cmap, n)
             if not g:
                 print("peringatan baris %d: pola %r tidak cocok dengan glyph apa pun, baris dilewati" % (n, line.split("=>")[0].strip()))
                 ok = False
                 break
-            nm = "TP_%d_%d" % (i, k)
-            cls(nm, g)
+            nm = "TP_BASE" if letters is None else "TP_%d_%d" % (i, k)
+            if letters is not None:
+                cls(nm, g)
             classes.append(nm)
         if not ok:
             continue
-        for side in ("atas", "bawah"):
-            if side not in reg and not (bold and side in bold):
-                continue
-            vals = {w: weight_value(reg, bold, side, w) for w in WEIGHTS}
+        keys = [k for k in list(reg) + [k for k in (bold or {}) if k not in reg]]
+        for j, key in enumerate(keys):
+            vals = {w: weight_value(reg, bold, key, w) for w in WEIGHTS}
             if all(v == (0, 0) for v in vals.values()):
                 continue
-            T = "@TP_ABOVE" if side == "atas" else "@TP_BELOW"
-            Tn = ta if side == "atas" else tb
-            lk = "TP_L%d_%s" % (i, "A" if side == "atas" else "B")
+            if key == "atas":
+                T, Tn = "@TP_ABOVE", ta
+            elif key == "bawah":
+                T, Tn = "@TP_BELOW", tb
+            else:
+                Tn = [x for x in names if mrx[key].match(x)]
+                if not Tn:
+                    print("peringatan baris %d: tanda %r tidak ada di font, dilewati" % (n, key))
+                    continue
+                cls("TP_%d_%d_T" % (i, j), Tn)
+                T = "@TP_%d_%d_T" % (i, j)
+            lk = "TP_L%d_%d" % (i, j)
             for w in WEIGHTS:
                 lookups[w].append("lookup %s { pos %s <%d %d 0 0>; } %s;" % (lk, T, vals[w][0], vals[w][1], lk))
-            other = "TP_%d_%s_O" % (i, "A" if side == "atas" else "B")
-            cls(other, [x for x in ta + tb if x not in set(Tn)])
+            other = "TP_%d_%d_O" % (i, j)
+            cls(other, [x for x in allmarks if x not in set(Tn)])
             seqs = [s for ln in (1, 2, 3) for s in itertools.product("TO", repeat=ln) if "T" in s]
-            rules.append("    # baris %d (%s): %s" % (n, side, line.split("=>")[0].strip()))
+            rules.append("    # baris %d (%s): %s" % (n, key, line.split("=>")[0].strip()))
             pre_opts = [[], ["@TP_ALL"], ["@TP_ALL", "@TP_ALL"]]
             for pre_marks in itertools.product(range(3), repeat=tgt):
                 pre = []
@@ -184,7 +212,7 @@ def main():
                 for s in seqs:
                     first, last = s.index("T"), len(s) - 1 - s[::-1].index("T")
                     back = pre + ["@" + classes[tgt]] + ["@" + other for _ in s[:first]]
-                    inp = ["%s' lookup %s" % (T, lk) if s[j] == "T" else "@%s'" % other for j in range(first, last + 1)]
+                    inp = ["%s' lookup %s" % (T, lk) if s[j2] == "T" else "@%s'" % other for j2 in range(first, last + 1)]
                     fwd = ["@" + other for _ in s[last + 1:]]
                     tail = ["@" + c for c in classes[tgt + 1:]]
                     rules.append("    pos %s;" % " ".join(back + inp + fwd + tail))

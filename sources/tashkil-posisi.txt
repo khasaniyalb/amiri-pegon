@@ -40,180 +40,188 @@
 ا$ => atas 0 0  bawah 0 0
 ا_ => atas 0 0  bawah 0 0
 
-ب^ => atas 0 -300
-ب~ => atas -50 -300
-ب$ => atas 0 -400
-ب_ => atas 0 -400
+ب^ => atas 0 -375  bawah 0 0
+ب~ => atas 0 -500  bawah 0 0
+ب$ => atas 0 -425  bawah 0 0
+ب_ => atas 0 -325  bawah 0 0
 
-ت^ => atas 50 -200
-ت~ => atas 0 -200
-ت$ => atas 0 -200
-ت_ => atas 0 -200
+ت^ => atas 0 -250  bawah 0 210
+ت~ => atas 0 -300  bawah 0 210
+ت$ => atas 0 -225  bawah 0 210
+ت_ => atas 0 -220  bawah 0 210
 
-ث^ => atas 0 -150
-ث~ => atas 0 -150
-ث$ => atas 0 -150
-ث_ => atas 0 -150
+ث^ => atas 0 -145  bawah 0 210
+ث~ => atas 0 -175  bawah 0 210
+ث$ => atas 0 -125  bawah 0 210
+ث_ => atas 0 -125  bawah 0 210
 
-ب^ => atas 0 -300  bawah 0 0
-ب~ => atas 0 -300  bawah 0 0
-ب$ => atas 0 -400  bawah 0 0
-ب_ => atas 0 -400  bawah 0 0
+ج^ => atas 0 -350  bawah 0 50
+ج~ => atas 0 -350  bawah 0 50
+ج$ => atas 0 -430  bawah 0 0
+ج_ => atas 0 -430  bawah 0 0
 
-ت^ => atas 0 -200  bawah 0 0
-ت~ => atas 0 -200  bawah 0 0
-ت$ => atas 0 -200  bawah 0 0
-ت_ => atas 0 -200  bawah 0 0
+ح^ => atas 0 -350  bawah 0 210
+ح~ => atas 0 -350  bawah 0 210
+ح$ => atas 0 -430  bawah 0 -600
+ح_ => atas 0 -430  bawah 0 -600
 
-ث^ => atas 0 -100  bawah 0 0
-ث~ => atas 0 -100  bawah 0 0
-ث$ => atas 0 -100  bawah 0 0
-ث_ => atas 0 -100  bawah 0 0
+خ^ => atas 0 -210  bawah 0 210
+خ~ => atas 0 -210  bawah 0 210
+خ$ => atas 0 -235  bawah 0 -600
+خ_ => atas 0 -235  bawah 0 -600
 
-ج^ => atas 0 -300  bawah 0 0
-ج~ => atas 0 -300  bawah 0 0
-ج$ => atas 0 -300  bawah 0 0
-ج_ => atas 0 -300  bawah 0 0
+د$ => atas 70 -200  bawah 0 210
+د_ => atas 0 -300  bawah 0 210
 
-ح^ => atas 0 -300  bawah 0 0
-ح~ => atas 0 -300  bawah 0 0
-ح$ => atas 0 -300  bawah 0 0
-ح_ => atas 0 -300  bawah 0 0
+ذ$ => atas 70 -50  bawah 0 210
+ذ_ => atas 0 -100  bawah 0 210
 
-خ^ => atas 0 -250  bawah 0 0
-خ~ => atas 0 -250  bawah 0 0
-خ$ => atas 0 -250  bawah 0 0
-خ_ => atas 0 -250  bawah 0 0
+ر$ => atas 100 -550  bawah 0 0
+ر_ => atas 0 -400  bawah 0 0
 
-د$ => atas 0 0  bawah 0 0
-د_ => atas 0 0  bawah 0 0
+ز$ => atas 50 -300  bawah 0 0
+ز_ => atas -50 -150  bawah 0 0
 
-ذ$ => atas 0 0  bawah 0 0
-ذ_ => atas 0 0  bawah 0 0
+س^ => atas 0 -425  bawah 0 210
+س~ => atas 0 -500  bawah 0 210
+س$ => atas 0 -500  bawah 0 0
+س_ => atas 0 -350  bawah 0 0
 
-ر$ => atas 0 0  bawah 0 0
-ر_ => atas 0 0  bawah 0 0
+ش^ => atas 0 -100  bawah 0 210
+ش~ => atas 0 -150  bawah 0 210
+ش$ => atas 0 -200  bawah 0 0
+ش_ => atas 0 -30  bawah 0 0
 
-ز$ => atas 0 0  bawah 0 0
-ز_ => atas 0 0  bawah 0 0
+ص^ => atas 0 -400  bawah 0 160
+ص~ => atas 0 -330  bawah 0 160
+ص$ => atas 0 -330  bawah 0 0
+ص_ => atas 0 -280  bawah 0 0
 
-س^ => atas 0 0  bawah 0 0
-س~ => atas 0 0  bawah 0 0
-س$ => atas 0 0  bawah 0 0
-س_ => atas 0 0  bawah 0 0
+ض^ => atas 0 -250  bawah 0 160
+ض~ => atas 0 -200  bawah 0 160
+ض$ => atas 0 -200  bawah 0 0
+ض_ => atas 0 -150  bawah 0 0
 
-ش^ => atas 0 0  bawah 0 0
-ش~ => atas 0 0  bawah 0 0
-ش$ => atas 0 0  bawah 0 0
-ش_ => atas 0 0  bawah 0 0
+ط^ => atas -200 0  bawah 0 -200
+ط~ => atas -150 0  bawah 0 -200
+ط$ => atas -150 0  bawah 0 -200
+ط_ => atas -200 0  bawah 0 -200
 
-ص^ => atas 0 0  bawah 0 0
-ص~ => atas 0 0  bawah 0 0
-ص$ => atas 0 0  bawah 0 0
-ص_ => atas 0 0  bawah 0 0
+ظ^ => atas -200 0  bawah 0 -200
+ظ~ => atas -150 0  bawah 0 -200
+ظ$ => atas -150 0  bawah 0 -200
+ظ_ => atas -200 0  bawah 0 -200
 
-ض^ => atas 0 0  bawah 0 0
-ض~ => atas 0 0  bawah 0 0
-ض$ => atas 0 0  bawah 0 0
-ض_ => atas 0 0  bawah 0 0
+ع^ => atas 0 -300  bawah 0 210
+ع~ => atas 0 -400  bawah 0 210
+ع$ => atas 0 -400  bawah 0 -600
+ع_ => atas 0 -250  bawah 0 -600
 
-ط^ => atas 0 0  bawah 0 0
-ط~ => atas 0 0  bawah 0 0
-ط$ => atas 0 0  bawah 0 0
-ط_ => atas 0 0  bawah 0 0
+غ^ => atas 0 -150  bawah 0 210
+غ~ => atas 0 -200  bawah 0 210
+غ$ => atas 0 -200  bawah 0 -600
+غ_ => atas 0 -100  bawah 0 -600
 
-ظ^ => atas 0 0  bawah 0 0
-ظ~ => atas 0 0  bawah 0 0
-ظ$ => atas 0 0  bawah 0 0
-ظ_ => atas 0 0  bawah 0 0
+ف^ => atas 0 -110  bawah 0 210
+ف~ => atas 0 -100  bawah 0 210
+ف$ => atas 0 -200  bawah 0 160
+ف_ => atas 0 -10  bawah 0 210
 
-ع^ => atas 0 0  bawah 0 0
-ع~ => atas 0 0  bawah 0 0
-ع$ => atas 0 0  bawah 0 0
-ع_ => atas 0 0  bawah 0 0
+ق^ => atas 50 -100  bawah 0 210
+ق~ => atas 0 -60  bawah 0 210
+ق$ => atas 100 -300  bawah 0 0
+ق_ => atas 0 -100  bawah 0 50
 
-غ^ => atas 0 0  bawah 0 0
-غ~ => atas 0 0  bawah 0 0
-غ$ => atas 0 0  bawah 0 0
-غ_ => atas 0 0  bawah 0 0
+ك^ => atas 0 0  bawah 0 210
+ك~ => atas 0 0  bawah 0 210
+ك$ => atas 0 -25  bawah 0 200
+ك_ => atas 0 0  bawah 0 210
 
-ف^ => atas 0 0  bawah 0 0
-ف~ => atas 0 0  bawah 0 0
-ف$ => atas 0 0  bawah 0 0
-ف_ => atas 0 0  bawah 0 0
+ل^ => atas 0 -20  bawah 0 210
+ل~ => atas 0 -30  bawah 0 210
+ل$ => atas 150 -30  bawah 0 -50
+ل_ => atas 150 -30  bawah 0 160
 
-ق^ => atas 0 0  bawah 0 0
-ق~ => atas 0 0  bawah 0 0
-ق$ => atas 0 0  bawah 0 0
-ق_ => atas 0 0  bawah 0 0
+م^ => atas 0 -350  bawah 0 210
+م~ => atas 0 -430  bawah 0 210
+م$ => atas 0 -450  bawah 0 100
+م_ => atas 0 -350  bawah 0 300
 
-ك^ => atas 0 0  bawah 0 0
-ك~ => atas 0 0  bawah 0 0
-ك$ => atas 0 0  bawah 0 0
-ك_ => atas 0 0  bawah 0 0
+ن^ => atas 50 -250  bawah 0 210
+ن~ => atas 50 -250  bawah 0 210
+ن$ => atas 0 -350  bawah 0 0
+ن_ => atas 0 -130  bawah 0 160
 
-ل^ => atas 0 0  bawah 0 0
-ل~ => atas 0 0  bawah 0 0
-ل$ => atas 0 0  bawah 0 0
-ل_ => atas 0 0  bawah 0 0
+و$ => atas 50 -500  bawah 0 0
+و_ => atas 0 -400  bawah 0 25
 
-م^ => atas 0 -350  bawah 0 0
-م~ => atas 0 -350  bawah 0 0
-م$ => atas 0 -350  bawah 0 0
-م_ => atas 0 -350  bawah 0 0
-
-ن^ => atas 0 0  bawah 0 0
-ن~ => atas 0 0  bawah 0 0
-ن$ => atas 0 0  bawah 0 0
-ن_ => atas 0 0  bawah 0 0
-
-و$ => atas 0 0  bawah 0 0
-و_ => atas 0 0  bawah 0 0
-
-ه^ => atas 0 0  bawah 0 0
-ه~ => atas 0 0  bawah 0 0
-ه$ => atas 0 0  bawah 0 0
-ه_ => atas 0 0  bawah 0 0
+ه^ => atas 0 -300  bawah 0 210
+ه~ => atas 0 -350  bawah 0 0
+ه$ => atas 50 -300  bawah 0 210
+ه_ => atas 0 -350  bawah 0 210
 
 ء~ => atas 0 0  bawah 0 0
 ء_ => atas 0 0  bawah 0 0
 
-ي^ => atas 0 0  bawah 0 0
-ي~ => atas 0 0  bawah 0 0
-ي$ => atas 0 0  bawah 0 0
-ي_ => atas 0 0  bawah 0 0
+ي^ => atas 50 -400  bawah 50 0
+ي~ => atas 0 -450  bawah 0 0
+ي$ => atas 0 -500  bawah 0 0
+ي_ => atas 0 -300  bawah 0 0
 
-چ^ => atas 0 0  bawah 0 0
-چ~ => atas 0 0  bawah 0 0
-چ$ => atas 0 0  bawah 0 0
-چ_ => atas 0 0  bawah 0 0
+ئ^ => atas 0 -150  bawah 0 210
+ئ~ => atas 0 -150  bawah 0 210
+ئ$ => atas 0 -50  bawah 0 0
+ئ_ => atas 0 -50  bawah 0 0
 
-ڠ^ => atas 0 0  bawah 0 0
-ڠ~ => atas 0 0  bawah 0 0
-ڠ$ => atas 0 0  bawah 0 0
-ڠ_ => atas 0 0  bawah 0 0
+ؤ$ => atas 25 -250  bawah 0 0
+ؤ_ => atas 0 -200  bawah 0 25
 
-ڤ^ => atas 0 0  bawah 0 0
-ڤ~ => atas 0 0  bawah 0 0
-ڤ$ => atas 0 0  bawah 0 0
-ڤ_ => atas 0 0  bawah 0 0
+ى^ => atas 0 -400  bawah 0 210
+ى~ => atas 0 -450  bawah 0 210
+ى$ => atas 0 -550  bawah 0 -50
+ى_ => atas 0 -300  bawah 0 0
 
-ۑ^ => atas 0 0  bawah 0 0
-ۑ~ => atas 0 0  bawah 0 0
-ۑ$ => atas 0 0  bawah 0 0
-ۑ_ => atas 0 0  bawah 0 0
+ة$ => atas 0 -150  bawah 0 210
+ة_ => atas 0 -150  bawah 0 210
 
-ࢴ^ => atas 0 0  bawah 0 0
-ࢴ~ => atas 0 0  bawah 0 0
-ࢴ$ => atas 0 0  bawah 0 0
-ࢴ_ => atas 0 0  bawah 0 0
+چ^ => atas 0 -350  bawah 50 0
+چ~ => atas 0 -350  bawah 50 0
+چ$ => atas 0 -430  bawah 0 0
+چ_ => atas 0 -430  bawah 0 0
 
-ࢋ^ => atas 0 0  bawah 0 0
-ࢋ~ => atas 0 0  bawah 0 0
-ࢋ$ => atas 0 0  bawah 0 0
-ࢋ_ => atas 0 0  bawah 0 0
+ڠ^ => atas -50 0  bawah 0 210
+ڠ~ => atas -50 0  bawah 0 210
+ڠ$ => atas -25 0  bawah 0 -600
+ڠ_ => atas -50 0  bawah 0 -600
 
-ڊ$ => atas 0 0  bawah 0 0
-ڊ_ => atas 0 0  bawah 0 0
+ڤ^ => atas 25 0  bawah 0 210
+ڤ~ => atas -25 0  bawah 0 210
+ڤ$ => atas -25 -50  bawah 0 110
+ڤ_ => atas 0 0  bawah 0 210
+
+ۑ^ => atas 0 -450  bawah 50 0
+ۑ~ => atas 0 -450  bawah 50 0
+ۑ$ => atas 0 -550  bawah 0 0
+ۑ_ => atas 0 -300  bawah 0 0
+
+ࢴ^ => atas 0 0  bawah 0 25
+ࢴ~ => atas 0 0  bawah 0 25
+ࢴ$ => atas 0 -25  bawah 0 25
+ࢴ_ => atas 0 0  bawah 0 25
+
+ࢋ^ => atas -200 0  bawah 0 25
+ࢋ~ => atas -150 0  bawah 0 25
+ࢋ$ => atas -150 0  bawah 0 25
+ࢋ_ => atas -200 0  bawah 0 25
+
+ڊ$ => atas 70 -200  bawah 0 25
+ڊ_ => atas 0 -300  bawah 0 25
 
 ت ب~* ن => atas 0 -300
+
+ل* [ج ح خ] => atas -100 -20 bawah -100 410
+
+ل* م$ => atas -100 -20 bawah 0 $
+ل* م~ => atas -100 -20 bawah 0 210
+
+ل م~* => atas -50 -430 bawah -50 210

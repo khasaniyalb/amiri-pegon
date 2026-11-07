@@ -599,6 +599,8 @@ def openFont(path, quran=False):
 
     import tashkil
     tashkil.apply(font)
+    import titik
+    titik.apply(font)
 
     return font
 

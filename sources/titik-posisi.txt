@@ -1,0 +1,73 @@
+# POSISI TITIK
+#
+# Posisi dasar titik sama dengan font Amiri asli. Berkas ini hanya berisi koreksi Anda, satu per baris.
+# Setiap baris menggeser titik sebuah huruf dari posisi aslinya. Berlaku untuk semua bobot
+# (Regular, Medium, SemiBold, Bold) dan juga Italic.
+#
+# FORMAT
+#     huruf => titik dx dy  | Bold titik dx dy
+#
+#   huruf    Satu huruf Arab = huruf itu di mana pun (semua bentuknya, termasuk ligatur).
+#            Boleh ditempel tanda bentuk:  ^ = awal kata,  ~ = tengah,  $ = akhir,  _ = berdiri sendiri.
+#            Contoh: ب^ = ba di awal kata.      [ن ي]$ = nun atau ya di akhir kata.
+#            Titik tidak mengenal konteks (huruf tetangga): hanya satu huruf per baris.
+#
+#            VARIAN/LIGATUR: satu bentuk huruf bisa punya banyak varian glyph (mis. beh-ar.init.BaaMemInit
+#            untuk بما, beh-ar.init.BaaMemIsol untuk بم). Dua cara menunjuk varian tertentu saja:
+#              ب^.BaaMemInit              huruf + bentuk + titik + NAMA VARIAN (boleh pakai *: ب^.BaaMem*)
+#              beh-ar.init.BaaMemIsol     nama glyph langsung (boleh pakai * dan ?)
+#            Nama varian tepat: BaaMemInit tidak ikut BaaMemInitLD (varian titik rendah); tulis terpisah.
+#            Tidak tahu nama glyph-nya? `python3 scripts/pratinjau-titik.py -a "# uji" "بما"` mencetak
+#            nama glyph yang dipakai kata itu.
+#
+#   titik    Titik mana yang digeser. Pilih salah satu atau beberapa, masing-masing diikuti dx dy:
+#              titik   semua titik pada huruf itu
+#              atas    semua titik di atas huruf          bawah   semua titik di bawah huruf
+#              satu    titik tunggal                      dua     dua titik          tiga   tiga titik
+#            Contoh:  ث => tiga 0 40      ب^ => bawah 0 -30      ج => satu 0 -20
+#
+#   dx dy    dx: ke kanan (+) / kiri (-).  dy: ke atas (+) / bawah (-).  Satuan 1/1000 tinggi huruf.
+#            SELALU relatif terhadap posisi asli Amiri: 0 0 = posisi asli, tidak ada nilai yang terbawa
+#            dari baris lain.
+#
+#   | Bold   (boleh dihilangkan) angka khusus Bold. Tanpa bagian ini Bold memakai angka yang sama.
+#            Medium dan SemiBold otomatis di antara Regular dan Bold.
+#
+# ATURAN PENTING (supaya nilai tidak menumpuk)
+#   * Setiap titik hanya mendapat SATU geseran, tidak pernah dijumlahkan.
+#   * Bila beberapa baris cocok dengan huruf yang sama, baris yang LEBIH ATAS di berkas didahulukan.
+#     Baris di bawahnya hanya berlaku untuk titik yang belum diatur oleh baris di atasnya.
+#     Jadi tulis baris yang khusus (ب^) SEBELUM baris yang umum (ب).
+#   * Tulis baris varian/glyph (ب^.BaaMemInit) SEBELUM baris umum (ب^). Jika dibalik, baris umum yang
+#     menang dan baris varian tidak berlaku.
+#   * Dalam satu baris, bila beberapa pilihan cocok pada titik yang sama (mis. "titik" dan "bawah"),
+#     yang tertulis lebih dulu dipakai.
+#   * Glyph lain yang memakai huruf ini sebagai komponen (mis. huruf berhamzah) ikut bergeser.
+#
+# CONTOH (hapus tanda # di depannya untuk memakainya)
+#   ب^ => bawah 0 -30 | Bold bawah 0 -40     titik bawah ب awal turun 30 (Bold: 40)
+#   ب => bawah 0 -20                         titik bawah ب di bentuk lain turun 20
+#   ث => tiga 0 40                           tiga titik ث naik 40 di semua bentuk
+#   [ن ي]$ => atas 20 0                      titik atas ن/ي akhir bergeser 20 ke kanan
+#   ب^.BaaMemInit => bawah 0 -40             hanya titik ب di بما (lalu baris umum di bawahnya)
+#   ب^ => bawah 0 -10                        ب awal lainnya turun 10
+#
+# Setelah mengubah berkas ini jalankan `make`, lalu `sh scripts/make-weights.sh`.
+# Ingin melihat hasilnya dulu tanpa mengubah apa pun?
+#   python3 scripts/pratinjau-titik.py -a "baris Anda" "kata contoh"
+
+ب^.BaaHaaInit => bawah 0 150
+ب^.BaaHaaMemInit => bawah 0 160
+ج~.BaaHaaMemInit => bawah 25 0
+ب^.BaaHehInit => bawah 0 110
+ج^.AboveHaa => bawah -55 110
+ج^.HaaMemInit => bawah -55 55
+خ^.AboveHaa => atas -160 55
+خ^.HaaHaaInit => atas -160 55
+خ^.HaaMemInit => atas -160 0
+ࢴ^.KafMemIsol => bawah -55 -110
+ࢴ~.KafLam => bawah -210 -55
+ࢴ$.LamKafIsol => bawah 0 -55
+ࢋ_ => bawah 110 0
+ࢋ^ => bawah 50 0
+ࢋ^.YaaBari => bawah 360 0

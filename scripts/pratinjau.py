@@ -3,10 +3,15 @@
 
   python3 scripts/pratinjau.py -a "ح^ م~ => atas 0 40" "حَمْدٌ" "حَمَلَ"
   python3 scripts/pratinjau.py -a "ب => atas 0 30 | Bold atas 0 45" -m Bold "بَكَ"
+  python3 scripts/pratinjau.py "لِْحَِمِْدُِ" "لَِخَِيَِرَِ"     # tanpa -a: bandingkan hasil edit langsung di tashkil-posisi.txt
+  python3 scripts/pratinjau.py --terima                        # jadikan isi tashkil-posisi.txt sekarang sebagai dasar "sebelum"
 
 Yang dilakukan:
-  1. menambahkan baris Anda ke salinan sementara tashkil-posisi.txt (berkas asli tidak diubah),
-  2. membangun dua font sementara (Regular atau Bold): kondisi repo sekarang dan dengan baris Anda,
+  1. menambahkan baris -a (jika ada) ke salinan sementara tashkil-posisi.txt (berkas asli tidak diubah),
+  2. membangun dua font sementara (Regular atau Bold): "sebelum" dan "sesudah".
+     "Sesudah" = tashkil-posisi.txt di folder kerja (edit langsung Anda) + baris -a.
+     "Sebelum" diambil dari yang pertama tersedia:
+       -d berkas.txt  >  dasar tersimpan lewat --terima (build/tashkil-posisi.dasar.txt)  >  hasil `make` terakhir,
   3. menggambar kata-kata Anda: hitam = sesudah aturan, biru = posisi tanda SEBELUM aturan,
      lengkap dengan kisi berangka (1 kotak = 100 unit), dan mencetak daftar pergeseran tiap tanda.
 
@@ -16,6 +21,7 @@ Pasang sekali:  pip install uharfbuzz matplotlib
 import argparse, os, shutil, subprocess, sys, tempfile
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+SNAP = os.path.join(ROOT, "build", "tashkil-posisi.dasar.txt")
 
 
 def need(mod, pip):
@@ -31,10 +37,15 @@ def main():
     ap.add_argument("-m", "--master", default="Regular", choices=["Regular", "Bold"])
     ap.add_argument("-o", "--keluar", default="pratinjau.png")
     ap.add_argument("-s", "--sebelum", help="font pembanding siap pakai (mempercepat; bawaan: dibangun otomatis)")
-    ap.add_argument("kata", nargs="+", help="kata contoh (lengkap dengan harakat)")
+    ap.add_argument("-d", "--dasar", help="berkas tashkil-posisi.txt pembanding untuk 'sebelum'")
+    ap.add_argument("--terima", action="store_true",
+                    help="simpan tashkil-posisi.txt sekarang sebagai dasar 'sebelum' berikutnya, lalu selesai")
+    ap.add_argument("kata", nargs="*", help="kata contoh (lengkap dengan harakat)")
     a = ap.parse_args()
-    if not a.aturan:
-        sys.exit("Tulis minimal satu aturan dengan -a \"...\"")
+    if a.terima:
+        return terima(a)
+    if not a.kata:
+        ap.error("tulis minimal satu kata contoh")
 
     uh = need("uharfbuzz", "uharfbuzz")
     need("matplotlib", "matplotlib")
@@ -55,7 +66,7 @@ def main():
         gen = os.path.join(ROOT, "scripts", "make-tashkil-posisi.py")
         r = subprocess.run([sys.executable, gen, ufo], cwd=ROOT, env=env, capture_output=True, text=True)
         if r.returncode:
-            sys.exit(r.stderr.strip() or r.stdout.strip())
+            sys.exit("[sesudah] " + (r.stderr.strip() or r.stdout.strip()))
         for ln in r.stdout.splitlines():
             if ln.startswith("peringatan"):
                 print("!!", ln)
@@ -74,11 +85,55 @@ def main():
         after = os.path.join(tmp, "sesudah.ttf")
         print("Membangun dua font sementara (%s): sebelum dan sesudah, sekitar 2-3 menit ..." % a.master)
         if not a.sebelum:
-            build(os.path.join(ROOT, "sources", "Amiri.fea"), before)
+            base_txt = None
+            if a.dasar:
+                base_txt = os.path.abspath(a.dasar)
+                if not os.path.exists(base_txt):
+                    sys.exit("Berkas tidak ditemukan: %s" % base_txt)
+                asal = "berkas -d (%s)" % a.dasar
+            elif os.path.exists(SNAP):
+                base_txt = SNAP
+                asal = "dasar tersimpan lewat --terima"
+            if base_txt:
+                # "sebelum" dibangkitkan ULANG dari berkas dasar itu
+                bdir = os.path.join(tmp, "sources_sebelum")
+                os.makedirs(bdir)
+                for fn in os.listdir(os.path.join(ROOT, "sources")):
+                    if fn.endswith(".fea") and fn != "tashkil_context.fea":
+                        shutil.copy(os.path.join(ROOT, "sources", fn), os.path.join(bdir, fn))
+                env_b = dict(os.environ, TP_TXT=base_txt, TP_OUT=os.path.join(bdir, "tashkil_context.fea"))
+                rb = subprocess.run([sys.executable, gen, ufo], cwd=ROOT, env=env_b, capture_output=True, text=True)
+                if rb.returncode:
+                    sys.exit("[sebelum: %s] %s" % (asal, rb.stderr.strip() or rb.stdout.strip()))
+                print("Pembanding 'sebelum': %s" % asal)
+                build(os.path.join(bdir, "Amiri.fea"), before)
+            else:
+                if not os.path.exists(os.path.join(ROOT, "sources", "tashkil_context.fea")):
+                    sys.exit("Belum ada sources/tashkil_context.fea. Jalankan `make` sekali dulu.")
+                print("Pembanding 'sebelum': hasil `make` terakhir (sources/tashkil_context.fea)")
+                build(os.path.join(ROOT, "sources", "Amiri.fea"), before)
         build(os.path.join(tmp, "sources", "Amiri.fea"), after)
         render(a, before, after, uh, TTFont)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
+
+
+def terima(a):
+    ufo = os.path.join(ROOT, "build", "Amiri-%s.ufo" % a.master)
+    if not os.path.exists(ufo):
+        sys.exit("Belum ada %s. Jalankan `make` sekali dulu." % ufo)
+    src = os.path.join(ROOT, "sources", "tashkil-posisi.txt")
+    tmp = tempfile.mkdtemp(prefix="pratinjau-")
+    try:
+        env = dict(os.environ, TP_TXT=src, TP_OUT=os.path.join(tmp, "uji.fea"))
+        r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "make-tashkil-posisi.py"), ufo],
+                           cwd=ROOT, env=env, capture_output=True, text=True)
+        if r.returncode:
+            sys.exit("Tidak disimpan, tashkil-posisi.txt sekarang belum valid:\n" + (r.stderr.strip() or r.stdout.strip()))
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+    shutil.copy(src, SNAP)
+    print("Tersimpan: %s\nPratinjau berikutnya akan membandingkan edit Anda dengan isi ini." % SNAP)
 
 
 def render(a, before, after, uh, TTFont):

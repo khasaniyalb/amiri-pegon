@@ -42,10 +42,10 @@
 ا$ => atas 0 0  bawah 0 0
 ا_ => atas 0 0  bawah 0 0
 
-ب^ => atas 0 -375  bawah 0 0
-ب~ => atas 0 -500  bawah 0 0
-ب$ => atas 0 -425  bawah 0 0
-ب_ => atas 0 -325  bawah 0 0
+ب^ => atas 0 -375  bawah 55 70
+ب~ => atas 0 -500  bawah 55 70
+ب$ => atas 0 -425  bawah -55 0
+ب_ => atas 0 -325  bawah 0 55
 
 ت^ => atas 0 -250  bawah 0 210
 ت~ => atas 0 -300  bawah 0 210
@@ -78,7 +78,7 @@
 ذ$ => atas 70 -50  bawah 0 210
 ذ_ => atas 0 -100  bawah 0 210
 
-ر$ => atas 100 -550  bawah 0 0
+ر$ => atas 0 -550  bawah 0 0
 ر_ => atas 0 -400  bawah 0 0
 
 ز$ => atas 50 -300  bawah 0 0
@@ -221,11 +221,66 @@
 
 # BENTUK KONTEKSTUAL
 
+
+# BENTUK BEH
+
+# با
+
+ب^* ا$ => atas -50 0 bawah -50 0
+
+# بب
+
+ب^* ب$ => atas 0 0 bawah 0 -55
+
+# بت
+
+ب^* ت$ => atas 0 0 bawah 0 -55
+ب^ ت$* => atas 0 0 bawah 0 -110
+
+# بث
+
+ب^* ث$ => atas 0 0 bawah 0 -55
+ب^ ث$* => atas 0 0 bawah 0 -110
+
+# بج
+
+ب^* [ج ح خ]$ => atas -50 300 bawah 0 0
+ب^ ج$* => atas 0 0 bawah 0 0
+
+# بح
+
+ب^ ح$* => atas 0 0 bawah 0 0
+
+# بخ
+
+ب^ خ$* => atas 0 0 bawah 0 0
+
+# بد
+
+ب^* د$ => atas 0 0 bawah 0 0
+ب^ د$* => atas 0 0 bawah 0 0
+
+# بذ
+
+ب^* ذ$ => atas 0 0 bawah 0 0
+ب^ ذ$* => atas 0 0 bawah 0 0
+
 ت ب~* ن => atas 0 -300
 
-ل* [ج ح خ] => atas -100 -20 bawah -100 410
+ل^* [ج ح خ]$ => atas -100 0 bawah -100 210
+ل^ خ$* => atas 0 -50 bawah 0 0
 
-ل* م$ => atas -100 -20 bawah 0 $
-ل* م~ => atas -100 -20 bawah 0 210
+ل^* [ج ح خ]~ => atas -100 0 bawah 0 160
+ل^ ج~* => atas 50 0 bawah 150 50
+ل^ خ~* => atas 50 -50 bawah 0 0
+ل^ ح~* => atas 50 0 bawah 0 0
+ل^ خ~* ي~ ر$ => atas 50 -50 bawah 0 0
 
-ل م~* => atas -50 -430 bawah -50 210
+ل* م$ => atas -100 0 bawah 0 -210
+
+ل^* م~ ا$ => atas -100 0 bawah 0 0
+ل^ م~* ا$ => atas -50 0 bawah -50 0
+
+ب^* ج~ م~ => atas 0 260 bawah 50 260
+ب^ ج~* م~ => atas -30 75 bawah 50 70
+ب^ ج~ م~* => atas 0 0 bawah 0 50
